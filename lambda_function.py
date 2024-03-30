@@ -25,12 +25,12 @@ def lambda_handler(event, context):
     input_video = ffmpeg.input("/tmp/output.mp4")
     input_audio = ffmpeg.input(f'{outdir}/no_vocals.mp3')
 
-    ffmpeg.concat(input_video, input_audio, v=1, a=1).output('tmp/lyric_video.mp4').run()
-    ffmpeg.concat(input_video, input_audio, v=1, a=1).output('tmp/karaoke.mp4').run()
+    ffmpeg.concat(input_video, input_audio, v=1, a=1).output('/tmp/lyric_video.mp4').run()
+    ffmpeg.concat(input_video, input_audio, v=1, a=1).output('/tmp/karaoke.mp4').run()
 
     # upload to s3
-    s3.upload_file('tmp/lyric_video.mp4', 'auto-karaoke', f'{song_name}/lyric_video.mp4')
-    s3.upload_file('tmp/karaoke.mp4', 'auto-karaoke', f'{song_name}/karaoke.mp4')
+    s3.upload_file('/tmp/lyric_video.mp4', 'auto-karaoke', f'{song_name}/lyric_video.mp4')
+    s3.upload_file('/tmp/karaoke.mp4', 'auto-karaoke', f'{song_name}/karaoke.mp4')
 
     return "DONE"    
 
