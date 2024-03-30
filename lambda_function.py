@@ -22,8 +22,8 @@ def lambda_handler(event, context):
     scene = KaraokeScene()
     scene.render()
 
-    input_video = ffmpeg.input("/tmp/media/videos/1080p60/KaraokeScene.mp4")
-    input_audio = ffmpeg.input('no_vocals.mp3')
+    input_video = ffmpeg.input("/tmp/output.mp4")
+    input_audio = ffmpeg.input(f'{outdir}/no_vocals.mp3')
 
     ffmpeg.concat(input_video, input_audio, v=1, a=1).output('tmp/lyric_video.mp4').run()
     ffmpeg.concat(input_video, input_audio, v=1, a=1).output('tmp/karaoke.mp4').run()
