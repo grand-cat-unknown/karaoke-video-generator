@@ -119,6 +119,6 @@ class KaraokeScene(Scene):
         if remaining_duration > 0:
             self.wait(remaining_duration)
 
-if __name__ == "__main__":
-    song_name = "YO! MY SAINT (Film Version)"
-    lambda_handler({'song_name': song_name}, None)
+# if __name__ == "__main__":
+#     song_name = "YO! MY SAINT (Film Version)"
+#     lambda_handler({'song_name': song_name}, None)
