@@ -80,49 +80,45 @@ class KaraokeScene(Scene):
             print(one_line)
             synced_lyrics.append(one_line)
 
-        text = Text("Hello")
-        self.play(Write(text), run_time=5)
-        # Display lyrics
+        previous_end_time = 0  # Keep track of the end time of the last word
+        for sentence in synced_lyrics:
+            self.clear()
 
-        # previous_end_time = 0  # Keep track of the end time of the last word
-        # for sentence in synced_lyrics:
-        #     self.clear()
+            pause_duration = sentence[0][0] - previous_end_time - one_frame_dration 
+            pause_duration = max(0, pause_duration)
 
-        #     pause_duration = sentence[0][0] - previous_end_time - one_frame_dration 
-        #     pause_duration = max(0, pause_duration)
+            line_group = VGroup()  # Group for the current line of lyrics
 
-        #     line_group = VGroup()  # Group for the current line of lyrics
+            for word_info in sentence:
+                start, end, word_text = word_info
+                word = Text(word_text, color=WHITE).scale(0.7)
+                line_group.add(word)  # Add the word to the line group
 
-        #     for word_info in sentence:
-        #         start, end, word_text = word_info
-        #         word = Text(word_text, color=WHITE).scale(0.7)
-        #         line_group.add(word)  # Add the word to the line group
+            line_group.arrange(RIGHT, buff=0.1)  # Arrange words in a row
+            self.add(line_group)  # Display the line
 
-        #     line_group.arrange(RIGHT, buff=0.1)  # Arrange words in a row
-        #     self.add(line_group)  # Display the line
+            if pause_duration > 0:
+                self.wait(pause_duration)  # Wait for the duration of the pause
 
-        #     if pause_duration > 0:
-        #         self.wait(pause_duration)  # Wait for the duration of the pause
+            # Highlight words sequentially
+            for i, word_info in enumerate(sentence):
+                start, end, _ = word_info
+                duration = end - start
+                if duration <= 0:  # If duration is zero, highlight immediately
+                    self.add(line_group[i].set_color(YELLOW))
+                else:  # For non-zero durations, proceed with normal animation
+                    self.play(line_group[i].animate.set_color(YELLOW), run_time=duration)
+                # now wait for the remaining duration
+                if i < len(sentence) - 1:
+                    remaining_duration = sentence[i + 1][0] - end
+                    if remaining_duration > 0:
+                        self.wait(remaining_duration)
 
-        #     # Highlight words sequentially
-        #     for i, word_info in enumerate(sentence):
-        #         start, end, _ = word_info
-        #         duration = end - start
-        #         if duration <= 0:  # If duration is zero, highlight immediately
-        #             self.add(line_group[i].set_color(YELLOW))
-        #         else:  # For non-zero durations, proceed with normal animation
-        #             self.play(line_group[i].animate.set_color(YELLOW), run_time=duration)
-        #         # now wait for the remaining duration
-        #         if i < len(sentence) - 1:
-        #             remaining_duration = sentence[i + 1][0] - end
-        #             if remaining_duration > 0:
-        #                 self.wait(remaining_duration)
-
-        #     previous_end_time = sentence[-1][1]
-        # # Wait for the remaining duration
-        # remaining_duration = song_length - previous_end_time
-        # if remaining_duration > 0:
-        #     self.wait(remaining_duration)
+            previous_end_time = sentence[-1][1]
+        # Wait for the remaining duration
+        remaining_duration = song_length - previous_end_time
+        if remaining_duration > 0:
+            self.wait(remaining_duration)
 
 if __name__ == "__main__":
     song_name = "YO! MY SAINT (Film Version)"
