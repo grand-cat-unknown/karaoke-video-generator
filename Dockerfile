@@ -1,5 +1,5 @@
 # Use an AWS Lambda Python runtime as a parent image
-FROM public.ecr.aws/lambda/python:3.9
+FROM python:3.9
 
 # Set the working directory in the container
 WORKDIR /var/task
