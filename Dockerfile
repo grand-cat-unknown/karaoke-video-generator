@@ -1,25 +1,20 @@
-# Use the official Python runtime as a parent image
-FROM python:3.9
+# Use AWS Lambda Python runtime as a parent image
+FROM public.ecr.aws/lambda/python:3.9
 
 # Set the working directory in the container
-WORKDIR /app
+WORKDIR /var/task
 
-# Copy the local Lambda function code to the container
-COPY . /app
+# Copy the local Lambda function code and dependencies to the container
+COPY . .
 
-# Install any dependencies, including lxml
-RUN apt-get update && apt install -y \
-    build-essential python3-dev libcairo2-dev libpango1.0-dev ffmpeg \
-    && pip install -r requirements.txt
+# Install OS dependencies required for building your dependencies but not ffmpeg
+RUN yum install -y gcc python3-devel cairo-devel pango-devel
 
-# Install the AWS Lambda RIE
-RUN apt-get install -y unzip \
-    && curl -Lo aws-lambda-rie https://github.com/aws/aws-lambda-runtime-interface-emulator/releases/latest/download/aws-lambda-rie \
-    && chmod +x aws-lambda-rie \
-    && mv aws-lambda-rie /usr/local/bin
+# Install Python dependencies
+RUN pip install -r requirements.txt
 
-# Use the AWS Lambda RIE as the entrypoint
-ENTRYPOINT [ "/usr/local/bin/aws-lambda-rie" ]
+# Manually download and install ffmpeg
+RUN curl -L https://johnvansickle.com/ffmpeg/releases/ffmpeg-release-amd64-static.tar.xz | tar Jxvf - --strip-components=1 -C /usr/local/bin
 
-# Command to run your Lambda function
-CMD ["python", "-m", "awslambdaric", "lambda_function.lambda_handler"]
+# Set the CMD to your handler (the AWS Lambda Python runtime expects a function handler)
+CMD ["lambda_function.lambda_handler"]
