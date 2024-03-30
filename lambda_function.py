@@ -22,7 +22,7 @@ def lambda_handler(event, context):
     scene = KaraokeScene()
     scene.render()
 
-    input_video = ffmpeg.input("/tmp/media/videos/1080p60/KaraokeScene.mp4")
+    input_video = ffmpeg.input("/tmp/output.mp4")
     input_audio = ffmpeg.input('no_vocals.mp3')
 
     ffmpeg.concat(input_video, input_audio, v=1, a=1).output('tmp/lyric_video.mp4').run()
@@ -39,6 +39,8 @@ class KaraokeScene(Scene):
     def construct(self):
         frame_rate = config.frame_rate
         one_frame_dration = 1 / frame_rate
+        config.frame_height = 480  # Set the frame height to 480 pixels
+        config.frame_width = 854
         # Load lyrics
         with open('/tmp/lyrics.txt') as f:
             lyrics = [line.strip().split() for line in f.readlines()]
@@ -81,7 +83,7 @@ class KaraokeScene(Scene):
         # Display lyrics
 
         previous_end_time = 0  # Keep track of the end time of the last word
-        for sentence in synced_lyrics:
+        for sentence in synced_lyrics[:1]:
             self.clear()
 
             pause_duration = sentence[0][0] - previous_end_time - one_frame_dration 
@@ -120,6 +122,6 @@ class KaraokeScene(Scene):
         if remaining_duration > 0:
             self.wait(remaining_duration)
 
-# if __name__ == "__main__":
-#     song_name = "YO! MY SAINT (Film Version)"
-#     lambda_handler({'song_name': song_name}, None)
+if __name__ == "__main__":
+    song_name = "YO! MY SAINT (Film Version)"
+    lambda_handler({'song_name': song_name}, None)
