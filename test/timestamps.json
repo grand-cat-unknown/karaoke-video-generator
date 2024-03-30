@@ -1,0 +1,3671 @@
+{
+  "text": " I was neon, I was the nearest door I was the sign that said you've been here before I swear I could see it, swear I could see it all so clear   I was steady, I was soft to the touch Cut wide open, did I let in too much? I swear I could feel it, swear I could feel it   Am I gonna lose myself again? Am I gonna lose myself again? I quite like the person that I am Am I gonna lose myself again?   I was neon, I was a floodlight Arms out reaching for everything in sight I swear I could be it, swear I could be it   Am I gonna lose myself again? Am I gonna lose myself again? I quite like the person that I am Am I gonna lose myself again? Am I gonna lose myself again? Am I gonna lose myself again? I quite like the person that I am Am I gonna lose myself again?    Am I gonna lose myself again? Am I gonna lose myself again? Am I gonna lose myself again? Am I gonna lose myself again? Am I gonna lose myself again? Am I gonna lose myself again? Am I gonna lose myself again? Am I gonna lose myself again? Am I gonna lose myself again? I don't want to lose myself again",
+  "segments": [
+    {
+      "start": 8.62,
+      "end": 9.8,
+      "text": " I was neon,",
+      "seek": null,
+      "tokens": [286, 390, 30820, 11],
+      "temperature": null,
+      "avg_logprob": null,
+      "compression_ratio": null,
+      "no_speech_prob": null,
+      "words": [
+        {
+          "word": " I",
+          "start": 8.62,
+          "end": 8.76,
+          "probability": 0.5301634669303894,
+          "tokens": [286]
+        },
+        {
+          "word": " was",
+          "start": 8.76,
+          "end": 9.14,
+          "probability": 0.8685017824172974,
+          "tokens": [390]
+        },
+        {
+          "word": " neon,",
+          "start": 9.14,
+          "end": 9.8,
+          "probability": 0.40766775608062744,
+          "tokens": [30820, 11]
+        }
+      ]
+    },
+    {
+      "start": 10.38,
+      "end": 14.88,
+      "text": " I was the nearest door I",
+      "seek": null,
+      "tokens": [286, 390, 264, 23831, 2853, 286],
+      "temperature": null,
+      "avg_logprob": null,
+      "compression_ratio": null,
+      "no_speech_prob": null,
+      "words": [
+        {
+          "word": " I",
+          "start": 10.38,
+          "end": 10.88,
+          "probability": 0.9931153655052185,
+          "tokens": [286]
+        },
+        {
+          "word": " was",
+          "start": 11.18,
+          "end": 11.82,
+          "probability": 0.9151909351348877,
+          "tokens": [390]
+        },
+        {
+          "word": " the",
+          "start": 11.82,
+          "end": 12.22,
+          "probability": 0.9892722368240356,
+          "tokens": [264]
+        },
+        {
+          "word": " nearest",
+          "start": 12.22,
+          "end": 12.68,
+          "probability": 0.9931578040122986,
+          "tokens": [23831]
+        },
+        {
+          "word": " door",
+          "start": 12.68,
+          "end": 13.56,
+          "probability": 0.3455815315246582,
+          "tokens": [2853]
+        },
+        {
+          "word": " I",
+          "start": 13.56,
+          "end": 14.88,
+          "probability": 0.4648181200027466,
+          "tokens": [286]
+        }
+      ]
+    },
+    {
+      "start": 16.1,
+      "end": 25.26,
+      "text": " was the sign that said you've been here before I swear I could see it,",
+      "seek": null,
+      "tokens": [
+        390, 264, 1465, 300, 848, 291, 600, 668, 510, 949, 286, 11902, 286, 727,
+        536, 309, 11
+      ],
+      "temperature": null,
+      "avg_logprob": null,
+      "compression_ratio": null,
+      "no_speech_prob": null,
+      "words": [
+        {
+          "word": " was",
+          "start": 16.1,
+          "end": 16.66,
+          "probability": 0.9969633221626282,
+          "tokens": [390]
+        },
+        {
+          "word": " the",
+          "start": 16.66,
+          "end": 16.8,
+          "probability": 0.8527867197990417,
+          "tokens": [264]
+        },
+        {
+          "word": " sign",
+          "start": 16.8,
+          "end": 17.24,
+          "probability": 0.20660126209259033,
+          "tokens": [1465]
+        },
+        {
+          "word": " that",
+          "start": 17.24,
+          "end": 17.56,
+          "probability": 0.9494417905807495,
+          "tokens": [300]
+        },
+        {
+          "word": " said",
+          "start": 17.56,
+          "end": 18.16,
+          "probability": 0.9882497787475586,
+          "tokens": [848]
+        },
+        {
+          "word": " you've",
+          "start": 18.16,
+          "end": 19.16,
+          "probability": 0.5524010509252548,
+          "tokens": [291, 600]
+        },
+        {
+          "word": " been",
+          "start": 19.16,
+          "end": 19.36,
+          "probability": 0.9977836012840271,
+          "tokens": [668]
+        },
+        {
+          "word": " here",
+          "start": 19.4,
+          "end": 19.84,
+          "probability": 0.988997757434845,
+          "tokens": [510]
+        },
+        {
+          "word": " before",
+          "start": 19.84,
+          "end": 20.86,
+          "probability": 0.9947038292884827,
+          "tokens": [949]
+        },
+        {
+          "word": " I",
+          "start": 20.86,
+          "end": 21.76,
+          "probability": 0.9064562320709229,
+          "tokens": [286]
+        },
+        {
+          "word": " swear",
+          "start": 21.76,
+          "end": 22.84,
+          "probability": 0.9573178887367249,
+          "tokens": [11902]
+        },
+        {
+          "word": " I",
+          "start": 22.84,
+          "end": 23.66,
+          "probability": 0.7423754930496216,
+          "tokens": [286]
+        },
+        {
+          "word": " could",
+          "start": 23.66,
+          "end": 24.14,
+          "probability": 0.9974557757377625,
+          "tokens": [727]
+        },
+        {
+          "word": " see",
+          "start": 24.14,
+          "end": 24.68,
+          "probability": 0.9972774386405945,
+          "tokens": [536]
+        },
+        {
+          "word": " it,",
+          "start": 24.68,
+          "end": 25.26,
+          "probability": 0.9910590052604675,
+          "tokens": [309, 11]
+        }
+      ]
+    },
+    {
+      "start": 25.34,
+      "end": 30.74,
+      "text": " swear I could see it all so clear",
+      "seek": null,
+      "tokens": [11902, 286, 727, 536, 309, 439, 370, 1850],
+      "temperature": null,
+      "avg_logprob": null,
+      "compression_ratio": null,
+      "no_speech_prob": null,
+      "words": [
+        {
+          "word": " swear",
+          "start": 25.34,
+          "end": 26.42,
+          "probability": 0.7984834313392639,
+          "tokens": [11902]
+        },
+        {
+          "word": " I",
+          "start": 26.42,
+          "end": 27.3,
+          "probability": 0.9008776545524597,
+          "tokens": [286]
+        },
+        {
+          "word": " could",
+          "start": 27.3,
+          "end": 27.88,
+          "probability": 0.9991538524627686,
+          "tokens": [727]
+        },
+        {
+          "word": " see",
+          "start": 27.88,
+          "end": 28.4,
+          "probability": 0.9984800219535828,
+          "tokens": [536]
+        },
+        {
+          "word": " it",
+          "start": 28.4,
+          "end": 28.92,
+          "probability": 0.99782794713974,
+          "tokens": [309]
+        },
+        {
+          "word": " all",
+          "start": 28.92,
+          "end": 29.04,
+          "probability": 0.9934822916984558,
+          "tokens": [439]
+        },
+        {
+          "word": " so",
+          "start": 29.04,
+          "end": 29.68,
+          "probability": 0.9961825013160706,
+          "tokens": [370]
+        },
+        {
+          "word": " clear",
+          "start": 29.68,
+          "end": 30.74,
+          "probability": 0.9821681976318359,
+          "tokens": [1850]
+        }
+      ]
+    },
+    {
+      "start": 38.74,
+      "end": 44.52,
+      "text": "   I was steady, I was soft to the touch Cut",
+      "seek": null,
+      "tokens": [
+        220, 220, 286, 390, 13211, 11, 286, 390, 2787, 281, 264, 2557, 9431
+      ],
+      "temperature": null,
+      "avg_logprob": null,
+      "compression_ratio": null,
+      "no_speech_prob": null,
+      "words": [
+        {
+          "word": "   I",
+          "start": 38.74,
+          "end": 38.74,
+          "probability": 0.0022346657133311965,
+          "tokens": [220, 220, 286]
+        },
+        {
+          "word": " was",
+          "start": 38.74,
+          "end": 38.9,
+          "probability": 0.17769138514995575,
+          "tokens": [390]
+        },
+        {
+          "word": " steady,",
+          "start": 38.9,
+          "end": 40.06,
+          "probability": 0.6888668984174728,
+          "tokens": [13211, 11]
+        },
+        {
+          "word": " I",
+          "start": 40.06,
+          "end": 40.88,
+          "probability": 0.9247922301292419,
+          "tokens": [286]
+        },
+        {
+          "word": " was",
+          "start": 40.88,
+          "end": 41.12,
+          "probability": 0.9217315912246704,
+          "tokens": [390]
+        },
+        {
+          "word": " soft",
+          "start": 41.12,
+          "end": 41.86,
+          "probability": 0.9685220718383789,
+          "tokens": [2787]
+        },
+        {
+          "word": " to",
+          "start": 41.86,
+          "end": 42.48,
+          "probability": 0.8933127522468567,
+          "tokens": [281]
+        },
+        {
+          "word": " the",
+          "start": 42.48,
+          "end": 42.7,
+          "probability": 0.7462252974510193,
+          "tokens": [264]
+        },
+        {
+          "word": " touch",
+          "start": 42.7,
+          "end": 44.3,
+          "probability": 0.9973813891410828,
+          "tokens": [2557]
+        },
+        {
+          "word": " Cut",
+          "start": 44.3,
+          "end": 44.52,
+          "probability": 0.01567154750227928,
+          "tokens": [9431]
+        }
+      ]
+    },
+    {
+      "start": 46.0,
+      "end": 51.28,
+      "text": " wide open, did I let in too much?",
+      "seek": null,
+      "tokens": [4874, 1269, 11, 630, 286, 718, 294, 886, 709, 30],
+      "temperature": null,
+      "avg_logprob": null,
+      "compression_ratio": null,
+      "no_speech_prob": null,
+      "words": [
+        {
+          "word": " wide",
+          "start": 46.0,
+          "end": 46.46,
+          "probability": 0.9665514230728149,
+          "tokens": [4874]
+        },
+        {
+          "word": " open,",
+          "start": 46.46,
+          "end": 47.66,
+          "probability": 0.8604123592376709,
+          "tokens": [1269, 11]
+        },
+        {
+          "word": " did",
+          "start": 47.66,
+          "end": 48.36,
+          "probability": 0.9724030494689941,
+          "tokens": [630]
+        },
+        {
+          "word": " I",
+          "start": 48.36,
+          "end": 48.62,
+          "probability": 0.9935480952262878,
+          "tokens": [286]
+        },
+        {
+          "word": " let",
+          "start": 48.62,
+          "end": 49.0,
+          "probability": 0.47131747007369995,
+          "tokens": [718]
+        },
+        {
+          "word": " in",
+          "start": 49.0,
+          "end": 49.8,
+          "probability": 0.9789642691612244,
+          "tokens": [294]
+        },
+        {
+          "word": " too",
+          "start": 49.8,
+          "end": 50.24,
+          "probability": 0.9854106903076172,
+          "tokens": [886]
+        },
+        {
+          "word": " much?",
+          "start": 50.24,
+          "end": 51.28,
+          "probability": 0.7776476144790649,
+          "tokens": [709, 30]
+        }
+      ]
+    },
+    {
+      "start": 51.28,
+      "end": 55.44,
+      "text": " I swear I could feel it,",
+      "seek": null,
+      "tokens": [286, 11902, 286, 727, 841, 309, 11],
+      "temperature": null,
+      "avg_logprob": null,
+      "compression_ratio": null,
+      "no_speech_prob": null,
+      "words": [
+        {
+          "word": " I",
+          "start": 51.28,
+          "end": 51.8,
+          "probability": 0.943394660949707,
+          "tokens": [286]
+        },
+        {
+          "word": " swear",
+          "start": 51.8,
+          "end": 52.7,
+          "probability": 0.9395279288291931,
+          "tokens": [11902]
+        },
+        {
+          "word": " I",
+          "start": 52.7,
+          "end": 53.58,
+          "probability": 0.7360707521438599,
+          "tokens": [286]
+        },
+        {
+          "word": " could",
+          "start": 53.58,
+          "end": 54.02,
+          "probability": 0.9971897006034851,
+          "tokens": [727]
+        },
+        {
+          "word": " feel",
+          "start": 54.02,
+          "end": 54.66,
+          "probability": 0.9984588623046875,
+          "tokens": [841]
+        },
+        {
+          "word": " it,",
+          "start": 54.66,
+          "end": 55.44,
+          "probability": 0.7221526801586151,
+          "tokens": [309, 11]
+        }
+      ]
+    },
+    {
+      "start": 55.44,
+      "end": 61.98,
+      "text": " swear I could feel it   Am I gonna lose myself again?",
+      "seek": null,
+      "tokens": [
+        11902, 286, 727, 841, 309, 220, 220, 2012, 286, 799, 3624, 2059, 797, 30
+      ],
+      "temperature": null,
+      "avg_logprob": null,
+      "compression_ratio": null,
+      "no_speech_prob": null,
+      "words": [
+        {
+          "word": " swear",
+          "start": 55.44,
+          "end": 56.44,
+          "probability": 0.5954524874687195,
+          "tokens": [11902]
+        },
+        {
+          "word": " I",
+          "start": 56.44,
+          "end": 57.34,
+          "probability": 0.9477664828300476,
+          "tokens": [286]
+        },
+        {
+          "word": " could",
+          "start": 57.34,
+          "end": 57.82,
+          "probability": 0.9990419745445251,
+          "tokens": [727]
+        },
+        {
+          "word": " feel",
+          "start": 57.82,
+          "end": 58.38,
+          "probability": 0.9976701140403748,
+          "tokens": [841]
+        },
+        {
+          "word": " it",
+          "start": 58.38,
+          "end": 58.78,
+          "probability": 0.9963212013244629,
+          "tokens": [309]
+        },
+        {
+          "word": "   Am",
+          "start": 58.78,
+          "end": 59.18,
+          "probability": 0.23422966497795036,
+          "tokens": [220, 220, 2012]
+        },
+        {
+          "word": " I",
+          "start": 59.18,
+          "end": 59.4,
+          "probability": 0.99660325050354,
+          "tokens": [286]
+        },
+        {
+          "word": " gonna",
+          "start": 59.4,
+          "end": 59.7,
+          "probability": 0.8364989161491394,
+          "tokens": [799]
+        },
+        {
+          "word": " lose",
+          "start": 59.7,
+          "end": 60.1,
+          "probability": 0.9824948906898499,
+          "tokens": [3624]
+        },
+        {
+          "word": " myself",
+          "start": 60.1,
+          "end": 60.94,
+          "probability": 0.9931501746177673,
+          "tokens": [2059]
+        },
+        {
+          "word": " again?",
+          "start": 60.94,
+          "end": 61.98,
+          "probability": 0.9181954264640808,
+          "tokens": [797, 30]
+        }
+      ]
+    },
+    {
+      "start": 61.98,
+      "end": 65.64,
+      "text": " Am I gonna lose myself again?",
+      "seek": null,
+      "tokens": [2012, 286, 799, 3624, 2059, 797, 30],
+      "temperature": null,
+      "avg_logprob": null,
+      "compression_ratio": null,
+      "no_speech_prob": null,
+      "words": [
+        {
+          "word": " Am",
+          "start": 61.98,
+          "end": 62.88,
+          "probability": 0.8208256363868713,
+          "tokens": [2012]
+        },
+        {
+          "word": " I",
+          "start": 62.88,
+          "end": 63.12,
+          "probability": 0.9970941543579102,
+          "tokens": [286]
+        },
+        {
+          "word": " gonna",
+          "start": 63.12,
+          "end": 63.44,
+          "probability": 0.9964410662651062,
+          "tokens": [799]
+        },
+        {
+          "word": " lose",
+          "start": 63.44,
+          "end": 63.88,
+          "probability": 0.9957466721534729,
+          "tokens": [3624]
+        },
+        {
+          "word": " myself",
+          "start": 63.88,
+          "end": 64.7,
+          "probability": 0.9963819980621338,
+          "tokens": [2059]
+        },
+        {
+          "word": " again?",
+          "start": 64.7,
+          "end": 65.64,
+          "probability": 0.9957318305969238,
+          "tokens": [797, 30]
+        }
+      ]
+    },
+    {
+      "start": 66.42,
+      "end": 67.34,
+      "text": " I quite like the",
+      "seek": null,
+      "tokens": [286, 1596, 411, 264],
+      "temperature": null,
+      "avg_logprob": null,
+      "compression_ratio": null,
+      "no_speech_prob": null,
+      "words": [
+        {
+          "word": " I",
+          "start": 66.42,
+          "end": 66.52,
+          "probability": 0.38513126969337463,
+          "tokens": [286]
+        },
+        {
+          "word": " quite",
+          "start": 66.52,
+          "end": 66.76,
+          "probability": 0.05322013422846794,
+          "tokens": [1596]
+        },
+        {
+          "word": " like",
+          "start": 66.96,
+          "end": 67.24,
+          "probability": 0.9781355857849121,
+          "tokens": [411]
+        },
+        {
+          "word": " the",
+          "start": 67.24,
+          "end": 67.34,
+          "probability": 0.5962018966674805,
+          "tokens": [264]
+        }
+      ]
+    },
+    {
+      "start": 67.88,
+      "end": 74.02,
+      "text": " person that I am Am I gonna lose myself again?",
+      "seek": null,
+      "tokens": [954, 300, 286, 669, 2012, 286, 799, 3624, 2059, 797, 30],
+      "temperature": null,
+      "avg_logprob": null,
+      "compression_ratio": null,
+      "no_speech_prob": null,
+      "words": [
+        {
+          "word": " person",
+          "start": 67.88,
+          "end": 67.98,
+          "probability": 0.9956640601158142,
+          "tokens": [954]
+        },
+        {
+          "word": " that",
+          "start": 67.98,
+          "end": 68.56,
+          "probability": 0.9895087480545044,
+          "tokens": [300]
+        },
+        {
+          "word": " I",
+          "start": 68.56,
+          "end": 69.06,
+          "probability": 0.8731379508972168,
+          "tokens": [286]
+        },
+        {
+          "word": " am",
+          "start": 69.06,
+          "end": 69.52,
+          "probability": 0.9957283139228821,
+          "tokens": [669]
+        },
+        {
+          "word": " Am",
+          "start": 69.52,
+          "end": 70.4,
+          "probability": 0.10851379483938217,
+          "tokens": [2012]
+        },
+        {
+          "word": " I",
+          "start": 70.4,
+          "end": 70.64,
+          "probability": 0.9887253642082214,
+          "tokens": [286]
+        },
+        {
+          "word": " gonna",
+          "start": 70.64,
+          "end": 70.88,
+          "probability": 0.7824937701225281,
+          "tokens": [799]
+        },
+        {
+          "word": " lose",
+          "start": 70.88,
+          "end": 71.38,
+          "probability": 0.9830847382545471,
+          "tokens": [3624]
+        },
+        {
+          "word": " myself",
+          "start": 71.38,
+          "end": 72.34,
+          "probability": 0.994820237159729,
+          "tokens": [2059]
+        },
+        {
+          "word": " again?",
+          "start": 72.34,
+          "end": 74.02,
+          "probability": 0.9264310002326965,
+          "tokens": [797, 30]
+        }
+      ]
+    },
+    {
+      "start": 91.12,
+      "end": 95.72,
+      "text": "   I was neon, I was a floodlight",
+      "seek": null,
+      "tokens": [220, 220, 286, 390, 30820, 11, 286, 390, 257, 10481, 2764],
+      "temperature": null,
+      "avg_logprob": null,
+      "compression_ratio": null,
+      "no_speech_prob": null,
+      "words": [
+        {
+          "word": "   I",
+          "start": 91.12,
+          "end": 91.12,
+          "probability": 0.0013062856087344699,
+          "tokens": [220, 220, 286]
+        },
+        {
+          "word": " was",
+          "start": 91.12,
+          "end": 91.22,
+          "probability": 0.46085914969444275,
+          "tokens": [390]
+        },
+        {
+          "word": " neon,",
+          "start": 91.22,
+          "end": 92.54,
+          "probability": 0.31130607426166534,
+          "tokens": [30820, 11]
+        },
+        {
+          "word": " I",
+          "start": 92.54,
+          "end": 93.0,
+          "probability": 0.9101230502128601,
+          "tokens": [286]
+        },
+        {
+          "word": " was",
+          "start": 93.42,
+          "end": 94.08,
+          "probability": 0.9938854575157166,
+          "tokens": [390]
+        },
+        {
+          "word": " a",
+          "start": 94.08,
+          "end": 94.66,
+          "probability": 0.9832010269165039,
+          "tokens": [257]
+        },
+        {
+          "word": " floodlight",
+          "start": 94.66,
+          "end": 95.72,
+          "probability": 0.9525114893913269,
+          "tokens": [10481, 2764]
+        }
+      ]
+    },
+    {
+      "start": 98.26,
+      "end": 107.56,
+      "text": " Arms out reaching for everything in sight I swear I could be it,",
+      "seek": null,
+      "tokens": [
+        42561, 484, 9906, 337, 1203, 294, 7860, 286, 11902, 286, 727, 312, 309,
+        11
+      ],
+      "temperature": null,
+      "avg_logprob": null,
+      "compression_ratio": null,
+      "no_speech_prob": null,
+      "words": [
+        {
+          "word": " Arms",
+          "start": 98.26,
+          "end": 98.36,
+          "probability": 0.09087119251489639,
+          "tokens": [42561]
+        },
+        {
+          "word": " out",
+          "start": 98.36,
+          "end": 98.88,
+          "probability": 0.9955054521560669,
+          "tokens": [484]
+        },
+        {
+          "word": " reaching",
+          "start": 98.88,
+          "end": 99.5,
+          "probability": 0.32806411385536194,
+          "tokens": [9906]
+        },
+        {
+          "word": " for",
+          "start": 99.5,
+          "end": 100.08,
+          "probability": 0.9884338974952698,
+          "tokens": [337]
+        },
+        {
+          "word": " everything",
+          "start": 100.18,
+          "end": 101.62,
+          "probability": 0.8495643138885498,
+          "tokens": [1203]
+        },
+        {
+          "word": " in",
+          "start": 101.62,
+          "end": 102.54,
+          "probability": 0.00795791670680046,
+          "tokens": [294]
+        },
+        {
+          "word": " sight",
+          "start": 102.54,
+          "end": 103.12,
+          "probability": 0.9885777235031128,
+          "tokens": [7860]
+        },
+        {
+          "word": " I",
+          "start": 103.12,
+          "end": 103.96,
+          "probability": 0.7594524621963501,
+          "tokens": [286]
+        },
+        {
+          "word": " swear",
+          "start": 103.96,
+          "end": 104.92,
+          "probability": 0.8616890907287598,
+          "tokens": [11902]
+        },
+        {
+          "word": " I",
+          "start": 104.92,
+          "end": 105.86,
+          "probability": 0.783078670501709,
+          "tokens": [286]
+        },
+        {
+          "word": " could",
+          "start": 105.86,
+          "end": 106.28,
+          "probability": 0.994621753692627,
+          "tokens": [727]
+        },
+        {
+          "word": " be",
+          "start": 106.28,
+          "end": 106.72,
+          "probability": 0.9978311657905579,
+          "tokens": [312]
+        },
+        {
+          "word": " it,",
+          "start": 106.72,
+          "end": 107.56,
+          "probability": 0.6826375424861908,
+          "tokens": [309, 11]
+        }
+      ]
+    },
+    {
+      "start": 107.56,
+      "end": 114.34,
+      "text": " swear I could be it   Am I gonna lose myself again?",
+      "seek": null,
+      "tokens": [
+        11902, 286, 727, 312, 309, 220, 220, 2012, 286, 799, 3624, 2059, 797, 30
+      ],
+      "temperature": null,
+      "avg_logprob": null,
+      "compression_ratio": null,
+      "no_speech_prob": null,
+      "words": [
+        {
+          "word": " swear",
+          "start": 107.56,
+          "end": 108.6,
+          "probability": 0.51866614818573,
+          "tokens": [11902]
+        },
+        {
+          "word": " I",
+          "start": 108.6,
+          "end": 109.56,
+          "probability": 0.9113174676895142,
+          "tokens": [286]
+        },
+        {
+          "word": " could",
+          "start": 109.56,
+          "end": 110.0,
+          "probability": 0.9989200830459595,
+          "tokens": [727]
+        },
+        {
+          "word": " be",
+          "start": 110.0,
+          "end": 110.54,
+          "probability": 0.9992164373397827,
+          "tokens": [312]
+        },
+        {
+          "word": " it",
+          "start": 110.54,
+          "end": 111.08,
+          "probability": 0.9966081380844116,
+          "tokens": [309]
+        },
+        {
+          "word": "   Am",
+          "start": 111.08,
+          "end": 111.46,
+          "probability": 0.23785263067111373,
+          "tokens": [220, 220, 2012]
+        },
+        {
+          "word": " I",
+          "start": 111.46,
+          "end": 111.72,
+          "probability": 0.9962422847747803,
+          "tokens": [286]
+        },
+        {
+          "word": " gonna",
+          "start": 111.72,
+          "end": 112.0,
+          "probability": 0.8736972212791443,
+          "tokens": [799]
+        },
+        {
+          "word": " lose",
+          "start": 112.0,
+          "end": 112.46,
+          "probability": 0.9786064624786377,
+          "tokens": [3624]
+        },
+        {
+          "word": " myself",
+          "start": 112.46,
+          "end": 112.98,
+          "probability": 0.9943094253540039,
+          "tokens": [2059]
+        },
+        {
+          "word": " again?",
+          "start": 112.98,
+          "end": 114.34,
+          "probability": 0.9283899664878845,
+          "tokens": [797, 30]
+        }
+      ]
+    },
+    {
+      "start": 114.34,
+      "end": 118.46,
+      "text": " Am I gonna lose myself again?",
+      "seek": null,
+      "tokens": [2012, 286, 799, 3624, 2059, 797, 30],
+      "temperature": null,
+      "avg_logprob": null,
+      "compression_ratio": null,
+      "no_speech_prob": null,
+      "words": [
+        {
+          "word": " Am",
+          "start": 114.34,
+          "end": 115.2,
+          "probability": 0.553784191608429,
+          "tokens": [2012]
+        },
+        {
+          "word": " I",
+          "start": 115.2,
+          "end": 115.46,
+          "probability": 0.9959638118743896,
+          "tokens": [286]
+        },
+        {
+          "word": " gonna",
+          "start": 115.46,
+          "end": 115.76,
+          "probability": 0.9976309537887573,
+          "tokens": [799]
+        },
+        {
+          "word": " lose",
+          "start": 115.76,
+          "end": 116.26,
+          "probability": 0.995478093624115,
+          "tokens": [3624]
+        },
+        {
+          "word": " myself",
+          "start": 116.26,
+          "end": 116.92,
+          "probability": 0.9965171813964844,
+          "tokens": [2059]
+        },
+        {
+          "word": " again?",
+          "start": 116.92,
+          "end": 118.46,
+          "probability": 0.9943475127220154,
+          "tokens": [797, 30]
+        }
+      ]
+    },
+    {
+      "start": 118.46,
+      "end": 120.24,
+      "text": " I quite like the person that I am Am I gonna lose myself again?",
+      "seek": null,
+      "tokens": [
+        286, 1596, 411, 264, 954, 300, 286, 669, 2012, 286, 799, 3624, 2059,
+        797, 30
+      ],
+      "temperature": null,
+      "avg_logprob": null,
+      "compression_ratio": null,
+      "no_speech_prob": null,
+      "words": [
+        {
+          "word": " I",
+          "start": 118.46,
+          "end": 118.84,
+          "probability": 0.39353659749031067,
+          "tokens": [286]
+        },
+        {
+          "word": " quite",
+          "start": 118.84,
+          "end": 119.12,
+          "probability": 0.030071845278143883,
+          "tokens": [1596]
+        },
+        {
+          "word": " like",
+          "start": 119.12,
+          "end": 119.44,
+          "probability": 0.9585731625556946,
+          "tokens": [411]
+        },
+        {
+          "word": " the",
+          "start": 119.44,
+          "end": 119.58,
+          "probability": 0.8702318668365479,
+          "tokens": [264]
+        },
+        {
+          "word": " person",
+          "start": 119.58,
+          "end": 120.2,
+          "probability": 0.9952208399772644,
+          "tokens": [954]
+        },
+        {
+          "word": " that",
+          "start": 120.2,
+          "end": 120.24,
+          "probability": 0.44327500462532043,
+          "tokens": [300]
+        },
+        {
+          "word": " I",
+          "start": 120.24,
+          "end": 120.24,
+          "probability": 0.3609439432621002,
+          "tokens": [286]
+        },
+        {
+          "word": " am",
+          "start": 120.24,
+          "end": 120.24,
+          "probability": 0.39422544836997986,
+          "tokens": [669]
+        },
+        {
+          "word": " Am",
+          "start": 120.24,
+          "end": 120.24,
+          "probability": 0.035167209804058075,
+          "tokens": [2012]
+        },
+        {
+          "word": " I",
+          "start": 120.24,
+          "end": 120.24,
+          "probability": 0.9928573369979858,
+          "tokens": [286]
+        },
+        {
+          "word": " gonna",
+          "start": 120.24,
+          "end": 120.24,
+          "probability": 0.9091302752494812,
+          "tokens": [799]
+        },
+        {
+          "word": " lose",
+          "start": 120.24,
+          "end": 120.24,
+          "probability": 0.9246715307235718,
+          "tokens": [3624]
+        },
+        {
+          "word": " myself",
+          "start": 120.24,
+          "end": 120.24,
+          "probability": 0.9284442663192749,
+          "tokens": [2059]
+        },
+        {
+          "word": " again?",
+          "start": 120.24,
+          "end": 120.24,
+          "probability": 0.962324321269989,
+          "tokens": [797, 30]
+        }
+      ]
+    },
+    {
+      "start": 120.24,
+      "end": 120.24,
+      "text": " Am I gonna lose myself again?",
+      "seek": null,
+      "tokens": [2012, 286, 799, 3624, 2059, 797, 30],
+      "temperature": null,
+      "avg_logprob": null,
+      "compression_ratio": null,
+      "no_speech_prob": null,
+      "words": [
+        {
+          "word": " Am",
+          "start": 120.24,
+          "end": 120.24,
+          "probability": 0.7090634107589722,
+          "tokens": [2012]
+        },
+        {
+          "word": " I",
+          "start": 120.24,
+          "end": 120.24,
+          "probability": 0.997370719909668,
+          "tokens": [286]
+        },
+        {
+          "word": " gonna",
+          "start": 120.24,
+          "end": 120.24,
+          "probability": 0.9877985119819641,
+          "tokens": [799]
+        },
+        {
+          "word": " lose",
+          "start": 120.24,
+          "end": 120.24,
+          "probability": 0.9843892455101013,
+          "tokens": [3624]
+        },
+        {
+          "word": " myself",
+          "start": 120.24,
+          "end": 120.24,
+          "probability": 0.9919494390487671,
+          "tokens": [2059]
+        },
+        {
+          "word": " again?",
+          "start": 120.24,
+          "end": 120.24,
+          "probability": 0.9958148002624512,
+          "tokens": [797, 30]
+        }
+      ]
+    },
+    {
+      "start": 120.24,
+      "end": 120.24,
+      "text": " Am I gonna lose myself again?",
+      "seek": null,
+      "tokens": [2012, 286, 799, 3624, 2059, 797, 30],
+      "temperature": null,
+      "avg_logprob": null,
+      "compression_ratio": null,
+      "no_speech_prob": null,
+      "words": [
+        {
+          "word": " Am",
+          "start": 120.24,
+          "end": 120.24,
+          "probability": 0.41791704297065735,
+          "tokens": [2012]
+        },
+        {
+          "word": " I",
+          "start": 120.24,
+          "end": 120.24,
+          "probability": 0.9971969127655029,
+          "tokens": [286]
+        },
+        {
+          "word": " gonna",
+          "start": 120.24,
+          "end": 120.24,
+          "probability": 0.9840837121009827,
+          "tokens": [799]
+        },
+        {
+          "word": " lose",
+          "start": 120.24,
+          "end": 120.24,
+          "probability": 0.9861540794372559,
+          "tokens": [3624]
+        },
+        {
+          "word": " myself",
+          "start": 120.24,
+          "end": 120.24,
+          "probability": 0.9905401468276978,
+          "tokens": [2059]
+        },
+        {
+          "word": " again?",
+          "start": 120.24,
+          "end": 120.24,
+          "probability": 0.9929277002811432,
+          "tokens": [797, 30]
+        }
+      ]
+    },
+    {
+      "start": 120.24,
+      "end": 125.58,
+      "text": " I quite like the person that I am Am I gonna lose myself again?",
+      "seek": null,
+      "tokens": [
+        286, 1596, 411, 264, 954, 300, 286, 669, 2012, 286, 799, 3624, 2059,
+        797, 30
+      ],
+      "temperature": null,
+      "avg_logprob": null,
+      "compression_ratio": null,
+      "no_speech_prob": null,
+      "words": [
+        {
+          "word": " I",
+          "start": 120.24,
+          "end": 120.24,
+          "probability": 0.3030939996242523,
+          "tokens": [286]
+        },
+        {
+          "word": " quite",
+          "start": 120.24,
+          "end": 120.24,
+          "probability": 0.8536971807479858,
+          "tokens": [1596]
+        },
+        {
+          "word": " like",
+          "start": 120.24,
+          "end": 120.24,
+          "probability": 0.9981374740600586,
+          "tokens": [411]
+        },
+        {
+          "word": " the",
+          "start": 120.24,
+          "end": 120.24,
+          "probability": 0.9982442855834961,
+          "tokens": [264]
+        },
+        {
+          "word": " person",
+          "start": 120.24,
+          "end": 120.24,
+          "probability": 0.9991243481636047,
+          "tokens": [954]
+        },
+        {
+          "word": " that",
+          "start": 120.24,
+          "end": 120.62,
+          "probability": 0.990323543548584,
+          "tokens": [300]
+        },
+        {
+          "word": " I",
+          "start": 120.92,
+          "end": 121.28,
+          "probability": 0.751629114151001,
+          "tokens": [286]
+        },
+        {
+          "word": " am",
+          "start": 121.28,
+          "end": 121.7,
+          "probability": 0.9936957955360413,
+          "tokens": [669]
+        },
+        {
+          "word": " Am",
+          "start": 121.7,
+          "end": 122.56,
+          "probability": 0.24844463169574738,
+          "tokens": [2012]
+        },
+        {
+          "word": " I",
+          "start": 122.56,
+          "end": 122.88,
+          "probability": 0.9940556287765503,
+          "tokens": [286]
+        },
+        {
+          "word": " gonna",
+          "start": 122.88,
+          "end": 123.14,
+          "probability": 0.8270734548568726,
+          "tokens": [799]
+        },
+        {
+          "word": " lose",
+          "start": 123.14,
+          "end": 123.54,
+          "probability": 0.9878693222999573,
+          "tokens": [3624]
+        },
+        {
+          "word": " myself",
+          "start": 123.54,
+          "end": 124.12,
+          "probability": 0.9936978220939636,
+          "tokens": [2059]
+        },
+        {
+          "word": " again?",
+          "start": 124.12,
+          "end": 125.58,
+          "probability": 0.8386234045028687,
+          "tokens": [797, 30]
+        }
+      ]
+    },
+    {
+      "start": 125.58,
+      "end": 128.84,
+      "text": "    Am I gonna lose myself again?",
+      "seek": null,
+      "tokens": [220, 220, 220, 2012, 286, 799, 3624, 2059, 797, 30],
+      "temperature": null,
+      "avg_logprob": null,
+      "compression_ratio": null,
+      "no_speech_prob": null,
+      "words": [
+        {
+          "word": "    Am",
+          "start": 125.58,
+          "end": 126.44,
+          "probability": 0.18326263491508143,
+          "tokens": [220, 220, 220, 2012]
+        },
+        {
+          "word": " I",
+          "start": 126.44,
+          "end": 126.56,
+          "probability": 0.9965143799781799,
+          "tokens": [286]
+        },
+        {
+          "word": " gonna",
+          "start": 126.56,
+          "end": 126.92,
+          "probability": 0.9849591851234436,
+          "tokens": [799]
+        },
+        {
+          "word": " lose",
+          "start": 126.92,
+          "end": 127.38,
+          "probability": 0.9908602237701416,
+          "tokens": [3624]
+        },
+        {
+          "word": " myself",
+          "start": 127.38,
+          "end": 128.22,
+          "probability": 0.9923465251922607,
+          "tokens": [2059]
+        },
+        {
+          "word": " again?",
+          "start": 128.22,
+          "end": 128.84,
+          "probability": 0.9874854683876038,
+          "tokens": [797, 30]
+        }
+      ]
+    },
+    {
+      "start": 129.02,
+      "end": 132.66,
+      "text": " Am I gonna lose myself again?",
+      "seek": null,
+      "tokens": [2012, 286, 799, 3624, 2059, 797, 30],
+      "temperature": null,
+      "avg_logprob": null,
+      "compression_ratio": null,
+      "no_speech_prob": null,
+      "words": [
+        {
+          "word": " Am",
+          "start": 129.02,
+          "end": 130.14,
+          "probability": 0.1735808253288269,
+          "tokens": [2012]
+        },
+        {
+          "word": " I",
+          "start": 130.14,
+          "end": 130.4,
+          "probability": 0.9959973096847534,
+          "tokens": [286]
+        },
+        {
+          "word": " gonna",
+          "start": 130.4,
+          "end": 130.68,
+          "probability": 0.9949615001678467,
+          "tokens": [799]
+        },
+        {
+          "word": " lose",
+          "start": 130.68,
+          "end": 131.12,
+          "probability": 0.9942700862884521,
+          "tokens": [3624]
+        },
+        {
+          "word": " myself",
+          "start": 131.12,
+          "end": 131.96,
+          "probability": 0.9952386617660522,
+          "tokens": [2059]
+        },
+        {
+          "word": " again?",
+          "start": 131.96,
+          "end": 132.66,
+          "probability": 0.9928451180458069,
+          "tokens": [797, 30]
+        }
+      ]
+    },
+    {
+      "start": 133.14,
+      "end": 135.2,
+      "text": " Am I gonna lose myself again?",
+      "seek": null,
+      "tokens": [2012, 286, 799, 3624, 2059, 797, 30],
+      "temperature": null,
+      "avg_logprob": null,
+      "compression_ratio": null,
+      "no_speech_prob": null,
+      "words": [
+        {
+          "word": " Am",
+          "start": 133.14,
+          "end": 133.86,
+          "probability": 0.25472894310951233,
+          "tokens": [2012]
+        },
+        {
+          "word": " I",
+          "start": 133.86,
+          "end": 133.96,
+          "probability": 0.9851218461990356,
+          "tokens": [286]
+        },
+        {
+          "word": " gonna",
+          "start": 133.96,
+          "end": 134.26,
+          "probability": 0.8258381485939026,
+          "tokens": [799]
+        },
+        {
+          "word": " lose",
+          "start": 134.26,
+          "end": 134.72,
+          "probability": 0.9767354130744934,
+          "tokens": [3624]
+        },
+        {
+          "word": " myself",
+          "start": 134.72,
+          "end": 135.2,
+          "probability": 0.9918479919433594,
+          "tokens": [2059]
+        },
+        {
+          "word": " again?",
+          "start": 135.2,
+          "end": 135.2,
+          "probability": 0.9881733059883118,
+          "tokens": [797, 30]
+        }
+      ]
+    },
+    {
+      "start": 135.2,
+      "end": 136.44,
+      "text": " Am I gonna lose myself again?",
+      "seek": null,
+      "tokens": [2012, 286, 799, 3624, 2059, 797, 30],
+      "temperature": null,
+      "avg_logprob": null,
+      "compression_ratio": null,
+      "no_speech_prob": null,
+      "words": [
+        {
+          "word": " Am",
+          "start": 135.2,
+          "end": 135.2,
+          "probability": 0.14652332663536072,
+          "tokens": [2012]
+        },
+        {
+          "word": " I",
+          "start": 135.2,
+          "end": 135.2,
+          "probability": 0.9891724586486816,
+          "tokens": [286]
+        },
+        {
+          "word": " gonna",
+          "start": 135.2,
+          "end": 135.2,
+          "probability": 0.9610182046890259,
+          "tokens": [799]
+        },
+        {
+          "word": " lose",
+          "start": 135.2,
+          "end": 135.2,
+          "probability": 0.9896342754364014,
+          "tokens": [3624]
+        },
+        {
+          "word": " myself",
+          "start": 135.2,
+          "end": 135.2,
+          "probability": 0.992161214351654,
+          "tokens": [2059]
+        },
+        {
+          "word": " again?",
+          "start": 135.2,
+          "end": 136.44,
+          "probability": 0.98799729347229,
+          "tokens": [797, 30]
+        }
+      ]
+    },
+    {
+      "start": 136.88,
+      "end": 137.76,
+      "text": " Am I gonna lose myself again?",
+      "seek": null,
+      "tokens": [2012, 286, 799, 3624, 2059, 797, 30],
+      "temperature": null,
+      "avg_logprob": null,
+      "compression_ratio": null,
+      "no_speech_prob": null,
+      "words": [
+        {
+          "word": " Am",
+          "start": 136.88,
+          "end": 137.46,
+          "probability": 0.09746093302965164,
+          "tokens": [2012]
+        },
+        {
+          "word": " I",
+          "start": 137.46,
+          "end": 137.76,
+          "probability": 0.9901902079582214,
+          "tokens": [286]
+        },
+        {
+          "word": " gonna",
+          "start": 137.76,
+          "end": 137.76,
+          "probability": 0.9899495840072632,
+          "tokens": [799]
+        },
+        {
+          "word": " lose",
+          "start": 137.76,
+          "end": 137.76,
+          "probability": 0.9920732378959656,
+          "tokens": [3624]
+        },
+        {
+          "word": " myself",
+          "start": 137.76,
+          "end": 137.76,
+          "probability": 0.9940662384033203,
+          "tokens": [2059]
+        },
+        {
+          "word": " again?",
+          "start": 137.76,
+          "end": 137.76,
+          "probability": 0.9911234378814697,
+          "tokens": [797, 30]
+        }
+      ]
+    },
+    {
+      "start": 137.76,
+      "end": 140.06,
+      "text": " Am I gonna lose myself again?",
+      "seek": null,
+      "tokens": [2012, 286, 799, 3624, 2059, 797, 30],
+      "temperature": null,
+      "avg_logprob": null,
+      "compression_ratio": null,
+      "no_speech_prob": null,
+      "words": [
+        {
+          "word": " Am",
+          "start": 137.76,
+          "end": 137.76,
+          "probability": 0.21617412567138672,
+          "tokens": [2012]
+        },
+        {
+          "word": " I",
+          "start": 137.76,
+          "end": 137.8,
+          "probability": 0.9841214418411255,
+          "tokens": [286]
+        },
+        {
+          "word": " gonna",
+          "start": 137.8,
+          "end": 138.04,
+          "probability": 0.9886366724967957,
+          "tokens": [799]
+        },
+        {
+          "word": " lose",
+          "start": 138.04,
+          "end": 138.52,
+          "probability": 0.9905260801315308,
+          "tokens": [3624]
+        },
+        {
+          "word": " myself",
+          "start": 138.52,
+          "end": 139.0,
+          "probability": 0.9935988187789917,
+          "tokens": [2059]
+        },
+        {
+          "word": " again?",
+          "start": 139.0,
+          "end": 140.06,
+          "probability": 0.9917744994163513,
+          "tokens": [797, 30]
+        }
+      ]
+    },
+    {
+      "start": 140.3,
+      "end": 141.4,
+      "text": " Am I gonna lose myself again?",
+      "seek": null,
+      "tokens": [2012, 286, 799, 3624, 2059, 797, 30],
+      "temperature": null,
+      "avg_logprob": null,
+      "compression_ratio": null,
+      "no_speech_prob": null,
+      "words": [
+        {
+          "word": " Am",
+          "start": 140.3,
+          "end": 141.4,
+          "probability": 0.4271177649497986,
+          "tokens": [2012]
+        },
+        {
+          "word": " I",
+          "start": 141.4,
+          "end": 141.4,
+          "probability": 0.9791918396949768,
+          "tokens": [286]
+        },
+        {
+          "word": " gonna",
+          "start": 141.4,
+          "end": 141.4,
+          "probability": 0.9848159551620483,
+          "tokens": [799]
+        },
+        {
+          "word": " lose",
+          "start": 141.4,
+          "end": 141.4,
+          "probability": 0.9899712800979614,
+          "tokens": [3624]
+        },
+        {
+          "word": " myself",
+          "start": 141.4,
+          "end": 141.4,
+          "probability": 0.993161678314209,
+          "tokens": [2059]
+        },
+        {
+          "word": " again?",
+          "start": 141.4,
+          "end": 141.4,
+          "probability": 0.9923216700553894,
+          "tokens": [797, 30]
+        }
+      ]
+    },
+    {
+      "start": 141.4,
+      "end": 142.14,
+      "text": " Am I gonna lose myself again?",
+      "seek": null,
+      "tokens": [2012, 286, 799, 3624, 2059, 797, 30],
+      "temperature": null,
+      "avg_logprob": null,
+      "compression_ratio": null,
+      "no_speech_prob": null,
+      "words": [
+        {
+          "word": " Am",
+          "start": 141.4,
+          "end": 142.14,
+          "probability": 0.5792954564094543,
+          "tokens": [2012]
+        },
+        {
+          "word": " I",
+          "start": 142.14,
+          "end": 142.14,
+          "probability": 0.9819515943527222,
+          "tokens": [286]
+        },
+        {
+          "word": " gonna",
+          "start": 142.14,
+          "end": 142.14,
+          "probability": 0.9830803871154785,
+          "tokens": [799]
+        },
+        {
+          "word": " lose",
+          "start": 142.14,
+          "end": 142.14,
+          "probability": 0.989989161491394,
+          "tokens": [3624]
+        },
+        {
+          "word": " myself",
+          "start": 142.14,
+          "end": 142.14,
+          "probability": 0.9931401610374451,
+          "tokens": [2059]
+        },
+        {
+          "word": " again?",
+          "start": 142.14,
+          "end": 142.14,
+          "probability": 0.9929293990135193,
+          "tokens": [797, 30]
+        }
+      ]
+    },
+    {
+      "start": 142.14,
+      "end": 146.16,
+      "text": " Am I gonna lose myself again?",
+      "seek": null,
+      "tokens": [2012, 286, 799, 3624, 2059, 797, 30],
+      "temperature": null,
+      "avg_logprob": null,
+      "compression_ratio": null,
+      "no_speech_prob": null,
+      "words": [
+        {
+          "word": " Am",
+          "start": 142.14,
+          "end": 144.08,
+          "probability": 0.6835177540779114,
+          "tokens": [2012]
+        },
+        {
+          "word": " I",
+          "start": 144.08,
+          "end": 146.16,
+          "probability": 0.9852052330970764,
+          "tokens": [286]
+        },
+        {
+          "word": " gonna",
+          "start": 146.16,
+          "end": 146.16,
+          "probability": 0.9826935529708862,
+          "tokens": [799]
+        },
+        {
+          "word": " lose",
+          "start": 146.16,
+          "end": 146.16,
+          "probability": 0.9901896119117737,
+          "tokens": [3624]
+        },
+        {
+          "word": " myself",
+          "start": 146.16,
+          "end": 146.16,
+          "probability": 0.9933926463127136,
+          "tokens": [2059]
+        },
+        {
+          "word": " again?",
+          "start": 146.16,
+          "end": 146.16,
+          "probability": 0.9934025406837463,
+          "tokens": [797, 30]
+        }
+      ]
+    },
+    {
+      "start": 146.16,
+      "end": 148.48,
+      "text": " I don't want to",
+      "seek": null,
+      "tokens": [286, 500, 380, 528, 281],
+      "temperature": null,
+      "avg_logprob": null,
+      "compression_ratio": null,
+      "no_speech_prob": null,
+      "words": [
+        {
+          "word": " I",
+          "start": 146.16,
+          "end": 146.16,
+          "probability": 0.011364097706973553,
+          "tokens": [286]
+        },
+        {
+          "word": " don't",
+          "start": 146.16,
+          "end": 147.62,
+          "probability": 0.5278424695134163,
+          "tokens": [500, 380]
+        },
+        {
+          "word": " want",
+          "start": 147.62,
+          "end": 148.28,
+          "probability": 0.08310423791408539,
+          "tokens": [528]
+        },
+        {
+          "word": " to",
+          "start": 148.28,
+          "end": 148.48,
+          "probability": 0.6855101585388184,
+          "tokens": [281]
+        }
+      ]
+    },
+    {
+      "start": 150.14,
+      "end": 150.6,
+      "text": " lose",
+      "seek": null,
+      "tokens": [3624],
+      "temperature": null,
+      "avg_logprob": null,
+      "compression_ratio": null,
+      "no_speech_prob": null,
+      "words": [
+        {
+          "word": " lose",
+          "start": 150.14,
+          "end": 150.6,
+          "probability": 0.31448039412498474,
+          "tokens": [3624]
+        }
+      ]
+    },
+    {
+      "start": 186.66,
+      "end": 188.64,
+      "text": " myself again",
+      "seek": null,
+      "tokens": [2059, 797],
+      "temperature": null,
+      "avg_logprob": null,
+      "compression_ratio": null,
+      "no_speech_prob": null,
+      "words": [
+        {
+          "word": " myself",
+          "start": 186.66,
+          "end": 187.94,
+          "probability": 0.9439038038253784,
+          "tokens": [2059]
+        },
+        {
+          "word": " again",
+          "start": 187.94,
+          "end": 188.64,
+          "probability": 0.8770347833633423,
+          "tokens": [797]
+        }
+      ]
+    }
+  ],
+  "language": null,
+  "ori_dict": {
+    "segments": [
+      {
+        "start": 8.62,
+        "end": 188.64,
+        "text": " I was neon, I was the nearest door I was the sign that said you've been here before I swear I could see it, swear I could see it all so clear   I was steady, I was soft to the touch Cut wide open, did I let in too much? I swear I could feel it, swear I could feel it   Am I gonna lose myself again? Am I gonna lose myself again? I quite like the person that I am Am I gonna lose myself again?   I was neon, I was a floodlight Arms out reaching for everything in sight I swear I could be it, swear I could be it   Am I gonna lose myself again? Am I gonna lose myself again? I quite like the person that I am Am I gonna lose myself again? Am I gonna lose myself again? Am I gonna lose myself again? I quite like the person that I am Am I gonna lose myself again?    Am I gonna lose myself again? Am I gonna lose myself again? Am I gonna lose myself again? Am I gonna lose myself again? Am I gonna lose myself again? Am I gonna lose myself again? Am I gonna lose myself again? Am I gonna lose myself again? Am I gonna lose myself again? I don't want to lose myself again",
+        "words": [
+          {
+            "word": " I",
+            "start": 8.62,
+            "end": 8.76,
+            "probability": 0.5301634669303894,
+            "tokens": [286]
+          },
+          {
+            "word": " was",
+            "start": 8.76,
+            "end": 9.14,
+            "probability": 0.8685017824172974,
+            "tokens": [390]
+          },
+          {
+            "word": " neon,",
+            "start": 9.14,
+            "end": 9.8,
+            "probability": 0.40766775608062744,
+            "tokens": [30820, 11]
+          },
+          {
+            "word": " I",
+            "start": 10.38,
+            "end": 11.14,
+            "probability": 0.9931153655052185,
+            "tokens": [286]
+          },
+          {
+            "word": " was",
+            "start": 11.14,
+            "end": 11.82,
+            "probability": 0.9151909351348877,
+            "tokens": [390]
+          },
+          {
+            "word": " the",
+            "start": 11.82,
+            "end": 12.22,
+            "probability": 0.9892722368240356,
+            "tokens": [264]
+          },
+          {
+            "word": " nearest",
+            "start": 12.22,
+            "end": 12.68,
+            "probability": 0.9931578040122986,
+            "tokens": [23831]
+          },
+          {
+            "word": " door",
+            "start": 12.68,
+            "end": 13.56,
+            "probability": 0.3455815315246582,
+            "tokens": [2853]
+          },
+          {
+            "word": " I",
+            "start": 13.56,
+            "end": 15.84,
+            "probability": 0.4648181200027466,
+            "tokens": [286]
+          },
+          {
+            "word": " was",
+            "start": 15.84,
+            "end": 16.66,
+            "probability": 0.9969633221626282,
+            "tokens": [390]
+          },
+          {
+            "word": " the",
+            "start": 16.66,
+            "end": 16.8,
+            "probability": 0.8527867197990417,
+            "tokens": [264]
+          },
+          {
+            "word": " sign",
+            "start": 16.8,
+            "end": 17.24,
+            "probability": 0.20660126209259033,
+            "tokens": [1465]
+          },
+          {
+            "word": " that",
+            "start": 17.24,
+            "end": 17.56,
+            "probability": 0.9494417905807495,
+            "tokens": [300]
+          },
+          {
+            "word": " said",
+            "start": 17.56,
+            "end": 18.16,
+            "probability": 0.9882497787475586,
+            "tokens": [848]
+          },
+          {
+            "word": " you've",
+            "start": 18.16,
+            "end": 19.16,
+            "probability": 0.5524010509252548,
+            "tokens": [291, 600]
+          },
+          {
+            "word": " been",
+            "start": 19.16,
+            "end": 19.38,
+            "probability": 0.9977836012840271,
+            "tokens": [668]
+          },
+          {
+            "word": " here",
+            "start": 19.38,
+            "end": 19.84,
+            "probability": 0.988997757434845,
+            "tokens": [510]
+          },
+          {
+            "word": " before",
+            "start": 19.84,
+            "end": 20.86,
+            "probability": 0.9947038292884827,
+            "tokens": [949]
+          },
+          {
+            "word": " I",
+            "start": 20.86,
+            "end": 21.76,
+            "probability": 0.9064562320709229,
+            "tokens": [286]
+          },
+          {
+            "word": " swear",
+            "start": 21.76,
+            "end": 22.84,
+            "probability": 0.9573178887367249,
+            "tokens": [11902]
+          },
+          {
+            "word": " I",
+            "start": 22.84,
+            "end": 23.66,
+            "probability": 0.7423754930496216,
+            "tokens": [286]
+          },
+          {
+            "word": " could",
+            "start": 23.66,
+            "end": 24.14,
+            "probability": 0.9974557757377625,
+            "tokens": [727]
+          },
+          {
+            "word": " see",
+            "start": 24.14,
+            "end": 24.68,
+            "probability": 0.9972774386405945,
+            "tokens": [536]
+          },
+          {
+            "word": " it,",
+            "start": 24.68,
+            "end": 25.26,
+            "probability": 0.9910590052604675,
+            "tokens": [309, 11]
+          },
+          {
+            "word": " swear",
+            "start": 25.34,
+            "end": 26.42,
+            "probability": 0.7984834313392639,
+            "tokens": [11902]
+          },
+          {
+            "word": " I",
+            "start": 26.42,
+            "end": 27.3,
+            "probability": 0.9008776545524597,
+            "tokens": [286]
+          },
+          {
+            "word": " could",
+            "start": 27.3,
+            "end": 27.88,
+            "probability": 0.9991538524627686,
+            "tokens": [727]
+          },
+          {
+            "word": " see",
+            "start": 27.88,
+            "end": 28.4,
+            "probability": 0.9984800219535828,
+            "tokens": [536]
+          },
+          {
+            "word": " it",
+            "start": 28.4,
+            "end": 28.92,
+            "probability": 0.99782794713974,
+            "tokens": [309]
+          },
+          {
+            "word": " all",
+            "start": 28.92,
+            "end": 29.04,
+            "probability": 0.9934822916984558,
+            "tokens": [439]
+          },
+          {
+            "word": " so",
+            "start": 29.04,
+            "end": 29.68,
+            "probability": 0.9961825013160706,
+            "tokens": [370]
+          },
+          {
+            "word": " clear",
+            "start": 29.68,
+            "end": 30.74,
+            "probability": 0.9821681976318359,
+            "tokens": [1850]
+          },
+          {
+            "word": "   I",
+            "start": 38.74,
+            "end": 38.74,
+            "probability": 0.0022346657133311965,
+            "tokens": [220, 220, 286]
+          },
+          {
+            "word": " was",
+            "start": 38.74,
+            "end": 38.9,
+            "probability": 0.17769138514995575,
+            "tokens": [390]
+          },
+          {
+            "word": " steady,",
+            "start": 38.9,
+            "end": 40.06,
+            "probability": 0.6888668984174728,
+            "tokens": [13211, 11]
+          },
+          {
+            "word": " I",
+            "start": 40.06,
+            "end": 40.88,
+            "probability": 0.9247922301292419,
+            "tokens": [286]
+          },
+          {
+            "word": " was",
+            "start": 40.88,
+            "end": 41.12,
+            "probability": 0.9217315912246704,
+            "tokens": [390]
+          },
+          {
+            "word": " soft",
+            "start": 41.12,
+            "end": 41.86,
+            "probability": 0.9685220718383789,
+            "tokens": [2787]
+          },
+          {
+            "word": " to",
+            "start": 41.86,
+            "end": 42.48,
+            "probability": 0.8933127522468567,
+            "tokens": [281]
+          },
+          {
+            "word": " the",
+            "start": 42.48,
+            "end": 42.7,
+            "probability": 0.7462252974510193,
+            "tokens": [264]
+          },
+          {
+            "word": " touch",
+            "start": 42.7,
+            "end": 44.3,
+            "probability": 0.9973813891410828,
+            "tokens": [2557]
+          },
+          {
+            "word": " Cut",
+            "start": 44.3,
+            "end": 45.94,
+            "probability": 0.01567154750227928,
+            "tokens": [9431]
+          },
+          {
+            "word": " wide",
+            "start": 45.94,
+            "end": 46.46,
+            "probability": 0.9665514230728149,
+            "tokens": [4874]
+          },
+          {
+            "word": " open,",
+            "start": 46.46,
+            "end": 47.66,
+            "probability": 0.8604123592376709,
+            "tokens": [1269, 11]
+          },
+          {
+            "word": " did",
+            "start": 47.66,
+            "end": 48.36,
+            "probability": 0.9724030494689941,
+            "tokens": [630]
+          },
+          {
+            "word": " I",
+            "start": 48.36,
+            "end": 48.62,
+            "probability": 0.9935480952262878,
+            "tokens": [286]
+          },
+          {
+            "word": " let",
+            "start": 48.62,
+            "end": 49.0,
+            "probability": 0.47131747007369995,
+            "tokens": [718]
+          },
+          {
+            "word": " in",
+            "start": 49.0,
+            "end": 49.8,
+            "probability": 0.9789642691612244,
+            "tokens": [294]
+          },
+          {
+            "word": " too",
+            "start": 49.8,
+            "end": 50.24,
+            "probability": 0.9854106903076172,
+            "tokens": [886]
+          },
+          {
+            "word": " much?",
+            "start": 50.24,
+            "end": 51.28,
+            "probability": 0.7776476144790649,
+            "tokens": [709, 30]
+          },
+          {
+            "word": " I",
+            "start": 51.28,
+            "end": 51.8,
+            "probability": 0.943394660949707,
+            "tokens": [286]
+          },
+          {
+            "word": " swear",
+            "start": 51.8,
+            "end": 52.7,
+            "probability": 0.9395279288291931,
+            "tokens": [11902]
+          },
+          {
+            "word": " I",
+            "start": 52.7,
+            "end": 53.58,
+            "probability": 0.7360707521438599,
+            "tokens": [286]
+          },
+          {
+            "word": " could",
+            "start": 53.58,
+            "end": 54.02,
+            "probability": 0.9971897006034851,
+            "tokens": [727]
+          },
+          {
+            "word": " feel",
+            "start": 54.02,
+            "end": 54.66,
+            "probability": 0.9984588623046875,
+            "tokens": [841]
+          },
+          {
+            "word": " it,",
+            "start": 54.66,
+            "end": 55.44,
+            "probability": 0.7221526801586151,
+            "tokens": [309, 11]
+          },
+          {
+            "word": " swear",
+            "start": 55.44,
+            "end": 56.44,
+            "probability": 0.5954524874687195,
+            "tokens": [11902]
+          },
+          {
+            "word": " I",
+            "start": 56.44,
+            "end": 57.34,
+            "probability": 0.9477664828300476,
+            "tokens": [286]
+          },
+          {
+            "word": " could",
+            "start": 57.34,
+            "end": 57.82,
+            "probability": 0.9990419745445251,
+            "tokens": [727]
+          },
+          {
+            "word": " feel",
+            "start": 57.82,
+            "end": 58.38,
+            "probability": 0.9976701140403748,
+            "tokens": [841]
+          },
+          {
+            "word": " it",
+            "start": 58.38,
+            "end": 58.78,
+            "probability": 0.9963212013244629,
+            "tokens": [309]
+          },
+          {
+            "word": "   Am",
+            "start": 58.78,
+            "end": 59.18,
+            "probability": 0.23422966497795036,
+            "tokens": [220, 220, 2012]
+          },
+          {
+            "word": " I",
+            "start": 59.18,
+            "end": 59.4,
+            "probability": 0.99660325050354,
+            "tokens": [286]
+          },
+          {
+            "word": " gonna",
+            "start": 59.4,
+            "end": 59.7,
+            "probability": 0.8364989161491394,
+            "tokens": [799]
+          },
+          {
+            "word": " lose",
+            "start": 59.7,
+            "end": 60.1,
+            "probability": 0.9824948906898499,
+            "tokens": [3624]
+          },
+          {
+            "word": " myself",
+            "start": 60.1,
+            "end": 60.94,
+            "probability": 0.9931501746177673,
+            "tokens": [2059]
+          },
+          {
+            "word": " again?",
+            "start": 60.94,
+            "end": 61.98,
+            "probability": 0.9181954264640808,
+            "tokens": [797, 30]
+          },
+          {
+            "word": " Am",
+            "start": 61.98,
+            "end": 62.88,
+            "probability": 0.8208256363868713,
+            "tokens": [2012]
+          },
+          {
+            "word": " I",
+            "start": 62.88,
+            "end": 63.12,
+            "probability": 0.9970941543579102,
+            "tokens": [286]
+          },
+          {
+            "word": " gonna",
+            "start": 63.12,
+            "end": 63.44,
+            "probability": 0.9964410662651062,
+            "tokens": [799]
+          },
+          {
+            "word": " lose",
+            "start": 63.44,
+            "end": 63.88,
+            "probability": 0.9957466721534729,
+            "tokens": [3624]
+          },
+          {
+            "word": " myself",
+            "start": 63.88,
+            "end": 64.7,
+            "probability": 0.9963819980621338,
+            "tokens": [2059]
+          },
+          {
+            "word": " again?",
+            "start": 64.7,
+            "end": 65.64,
+            "probability": 0.9957318305969238,
+            "tokens": [797, 30]
+          },
+          {
+            "word": " I",
+            "start": 65.64,
+            "end": 66.52,
+            "probability": 0.38513126969337463,
+            "tokens": [286]
+          },
+          {
+            "word": " quite",
+            "start": 66.52,
+            "end": 66.76,
+            "probability": 0.05322013422846794,
+            "tokens": [1596]
+          },
+          {
+            "word": " like",
+            "start": 66.96,
+            "end": 67.24,
+            "probability": 0.9781355857849121,
+            "tokens": [411]
+          },
+          {
+            "word": " the",
+            "start": 67.24,
+            "end": 67.34,
+            "probability": 0.5962018966674805,
+            "tokens": [264]
+          },
+          {
+            "word": " person",
+            "start": 67.34,
+            "end": 67.98,
+            "probability": 0.9956640601158142,
+            "tokens": [954]
+          },
+          {
+            "word": " that",
+            "start": 67.98,
+            "end": 68.56,
+            "probability": 0.9895087480545044,
+            "tokens": [300]
+          },
+          {
+            "word": " I",
+            "start": 68.56,
+            "end": 69.06,
+            "probability": 0.8731379508972168,
+            "tokens": [286]
+          },
+          {
+            "word": " am",
+            "start": 69.06,
+            "end": 69.52,
+            "probability": 0.9957283139228821,
+            "tokens": [669]
+          },
+          {
+            "word": " Am",
+            "start": 69.52,
+            "end": 70.4,
+            "probability": 0.10851379483938217,
+            "tokens": [2012]
+          },
+          {
+            "word": " I",
+            "start": 70.4,
+            "end": 70.64,
+            "probability": 0.9887253642082214,
+            "tokens": [286]
+          },
+          {
+            "word": " gonna",
+            "start": 70.64,
+            "end": 70.88,
+            "probability": 0.7824937701225281,
+            "tokens": [799]
+          },
+          {
+            "word": " lose",
+            "start": 70.88,
+            "end": 71.38,
+            "probability": 0.9830847382545471,
+            "tokens": [3624]
+          },
+          {
+            "word": " myself",
+            "start": 71.38,
+            "end": 72.34,
+            "probability": 0.994820237159729,
+            "tokens": [2059]
+          },
+          {
+            "word": " again?",
+            "start": 72.34,
+            "end": 74.54,
+            "probability": 0.9264310002326965,
+            "tokens": [797, 30]
+          },
+          {
+            "word": "   I",
+            "start": 91.12,
+            "end": 91.12,
+            "probability": 0.0013062856087344699,
+            "tokens": [220, 220, 286]
+          },
+          {
+            "word": " was",
+            "start": 91.12,
+            "end": 91.22,
+            "probability": 0.46085914969444275,
+            "tokens": [390]
+          },
+          {
+            "word": " neon,",
+            "start": 91.22,
+            "end": 92.54,
+            "probability": 0.31130607426166534,
+            "tokens": [30820, 11]
+          },
+          {
+            "word": " I",
+            "start": 92.54,
+            "end": 93.36,
+            "probability": 0.9101230502128601,
+            "tokens": [286]
+          },
+          {
+            "word": " was",
+            "start": 93.36,
+            "end": 94.08,
+            "probability": 0.9938854575157166,
+            "tokens": [390]
+          },
+          {
+            "word": " a",
+            "start": 94.08,
+            "end": 94.66,
+            "probability": 0.9832010269165039,
+            "tokens": [257]
+          },
+          {
+            "word": " floodlight",
+            "start": 94.66,
+            "end": 95.72,
+            "probability": 0.9525114893913269,
+            "tokens": [10481, 2764]
+          },
+          {
+            "word": " Arms",
+            "start": 95.72,
+            "end": 98.36,
+            "probability": 0.09087119251489639,
+            "tokens": [42561]
+          },
+          {
+            "word": " out",
+            "start": 98.36,
+            "end": 98.88,
+            "probability": 0.9955054521560669,
+            "tokens": [484]
+          },
+          {
+            "word": " reaching",
+            "start": 98.88,
+            "end": 99.5,
+            "probability": 0.32806411385536194,
+            "tokens": [9906]
+          },
+          {
+            "word": " for",
+            "start": 99.5,
+            "end": 100.18,
+            "probability": 0.9884338974952698,
+            "tokens": [337]
+          },
+          {
+            "word": " everything",
+            "start": 100.18,
+            "end": 101.62,
+            "probability": 0.8495643138885498,
+            "tokens": [1203]
+          },
+          {
+            "word": " in",
+            "start": 101.62,
+            "end": 102.54,
+            "probability": 0.00795791670680046,
+            "tokens": [294]
+          },
+          {
+            "word": " sight",
+            "start": 102.54,
+            "end": 103.12,
+            "probability": 0.9885777235031128,
+            "tokens": [7860]
+          },
+          {
+            "word": " I",
+            "start": 103.12,
+            "end": 103.96,
+            "probability": 0.7594524621963501,
+            "tokens": [286]
+          },
+          {
+            "word": " swear",
+            "start": 103.96,
+            "end": 104.92,
+            "probability": 0.8616890907287598,
+            "tokens": [11902]
+          },
+          {
+            "word": " I",
+            "start": 104.92,
+            "end": 105.86,
+            "probability": 0.783078670501709,
+            "tokens": [286]
+          },
+          {
+            "word": " could",
+            "start": 105.86,
+            "end": 106.28,
+            "probability": 0.994621753692627,
+            "tokens": [727]
+          },
+          {
+            "word": " be",
+            "start": 106.28,
+            "end": 106.72,
+            "probability": 0.9978311657905579,
+            "tokens": [312]
+          },
+          {
+            "word": " it,",
+            "start": 106.72,
+            "end": 107.56,
+            "probability": 0.6826375424861908,
+            "tokens": [309, 11]
+          },
+          {
+            "word": " swear",
+            "start": 107.56,
+            "end": 108.6,
+            "probability": 0.51866614818573,
+            "tokens": [11902]
+          },
+          {
+            "word": " I",
+            "start": 108.6,
+            "end": 109.56,
+            "probability": 0.9113174676895142,
+            "tokens": [286]
+          },
+          {
+            "word": " could",
+            "start": 109.56,
+            "end": 110.0,
+            "probability": 0.9989200830459595,
+            "tokens": [727]
+          },
+          {
+            "word": " be",
+            "start": 110.0,
+            "end": 110.54,
+            "probability": 0.9992164373397827,
+            "tokens": [312]
+          },
+          {
+            "word": " it",
+            "start": 110.54,
+            "end": 111.08,
+            "probability": 0.9966081380844116,
+            "tokens": [309]
+          },
+          {
+            "word": "   Am",
+            "start": 111.08,
+            "end": 111.46,
+            "probability": 0.23785263067111373,
+            "tokens": [220, 220, 2012]
+          },
+          {
+            "word": " I",
+            "start": 111.46,
+            "end": 111.72,
+            "probability": 0.9962422847747803,
+            "tokens": [286]
+          },
+          {
+            "word": " gonna",
+            "start": 111.72,
+            "end": 112.0,
+            "probability": 0.8736972212791443,
+            "tokens": [799]
+          },
+          {
+            "word": " lose",
+            "start": 112.0,
+            "end": 112.46,
+            "probability": 0.9786064624786377,
+            "tokens": [3624]
+          },
+          {
+            "word": " myself",
+            "start": 112.46,
+            "end": 112.98,
+            "probability": 0.9943094253540039,
+            "tokens": [2059]
+          },
+          {
+            "word": " again?",
+            "start": 112.98,
+            "end": 114.34,
+            "probability": 0.9283899664878845,
+            "tokens": [797, 30]
+          },
+          {
+            "word": " Am",
+            "start": 114.34,
+            "end": 115.2,
+            "probability": 0.553784191608429,
+            "tokens": [2012]
+          },
+          {
+            "word": " I",
+            "start": 115.2,
+            "end": 115.46,
+            "probability": 0.9959638118743896,
+            "tokens": [286]
+          },
+          {
+            "word": " gonna",
+            "start": 115.46,
+            "end": 115.76,
+            "probability": 0.9976309537887573,
+            "tokens": [799]
+          },
+          {
+            "word": " lose",
+            "start": 115.76,
+            "end": 116.26,
+            "probability": 0.995478093624115,
+            "tokens": [3624]
+          },
+          {
+            "word": " myself",
+            "start": 116.26,
+            "end": 116.92,
+            "probability": 0.9965171813964844,
+            "tokens": [2059]
+          },
+          {
+            "word": " again?",
+            "start": 116.92,
+            "end": 118.46,
+            "probability": 0.9943475127220154,
+            "tokens": [797, 30]
+          },
+          {
+            "word": " I",
+            "start": 118.46,
+            "end": 118.84,
+            "probability": 0.39353659749031067,
+            "tokens": [286]
+          },
+          {
+            "word": " quite",
+            "start": 118.84,
+            "end": 119.12,
+            "probability": 0.030071845278143883,
+            "tokens": [1596]
+          },
+          {
+            "word": " like",
+            "start": 119.12,
+            "end": 119.44,
+            "probability": 0.9585731625556946,
+            "tokens": [411]
+          },
+          {
+            "word": " the",
+            "start": 119.44,
+            "end": 119.58,
+            "probability": 0.8702318668365479,
+            "tokens": [264]
+          },
+          {
+            "word": " person",
+            "start": 119.58,
+            "end": 120.2,
+            "probability": 0.9952208399772644,
+            "tokens": [954]
+          },
+          {
+            "word": " that",
+            "start": 120.2,
+            "end": 120.24,
+            "probability": 0.44327500462532043,
+            "tokens": [300]
+          },
+          {
+            "word": " I",
+            "start": 120.24,
+            "end": 120.24,
+            "probability": 0.3609439432621002,
+            "tokens": [286]
+          },
+          {
+            "word": " am",
+            "start": 120.24,
+            "end": 120.24,
+            "probability": 0.39422544836997986,
+            "tokens": [669]
+          },
+          {
+            "word": " Am",
+            "start": 120.24,
+            "end": 120.24,
+            "probability": 0.035167209804058075,
+            "tokens": [2012]
+          },
+          {
+            "word": " I",
+            "start": 120.24,
+            "end": 120.24,
+            "probability": 0.9928573369979858,
+            "tokens": [286]
+          },
+          {
+            "word": " gonna",
+            "start": 120.24,
+            "end": 120.24,
+            "probability": 0.9091302752494812,
+            "tokens": [799]
+          },
+          {
+            "word": " lose",
+            "start": 120.24,
+            "end": 120.24,
+            "probability": 0.9246715307235718,
+            "tokens": [3624]
+          },
+          {
+            "word": " myself",
+            "start": 120.24,
+            "end": 120.24,
+            "probability": 0.9284442663192749,
+            "tokens": [2059]
+          },
+          {
+            "word": " again?",
+            "start": 120.24,
+            "end": 120.24,
+            "probability": 0.962324321269989,
+            "tokens": [797, 30]
+          },
+          {
+            "word": " Am",
+            "start": 120.24,
+            "end": 120.24,
+            "probability": 0.7090634107589722,
+            "tokens": [2012]
+          },
+          {
+            "word": " I",
+            "start": 120.24,
+            "end": 120.24,
+            "probability": 0.997370719909668,
+            "tokens": [286]
+          },
+          {
+            "word": " gonna",
+            "start": 120.24,
+            "end": 120.24,
+            "probability": 0.9877985119819641,
+            "tokens": [799]
+          },
+          {
+            "word": " lose",
+            "start": 120.24,
+            "end": 120.24,
+            "probability": 0.9843892455101013,
+            "tokens": [3624]
+          },
+          {
+            "word": " myself",
+            "start": 120.24,
+            "end": 120.24,
+            "probability": 0.9919494390487671,
+            "tokens": [2059]
+          },
+          {
+            "word": " again?",
+            "start": 120.24,
+            "end": 120.24,
+            "probability": 0.9958148002624512,
+            "tokens": [797, 30]
+          },
+          {
+            "word": " Am",
+            "start": 120.24,
+            "end": 120.24,
+            "probability": 0.41791704297065735,
+            "tokens": [2012]
+          },
+          {
+            "word": " I",
+            "start": 120.24,
+            "end": 120.24,
+            "probability": 0.9971969127655029,
+            "tokens": [286]
+          },
+          {
+            "word": " gonna",
+            "start": 120.24,
+            "end": 120.24,
+            "probability": 0.9840837121009827,
+            "tokens": [799]
+          },
+          {
+            "word": " lose",
+            "start": 120.24,
+            "end": 120.24,
+            "probability": 0.9861540794372559,
+            "tokens": [3624]
+          },
+          {
+            "word": " myself",
+            "start": 120.24,
+            "end": 120.24,
+            "probability": 0.9905401468276978,
+            "tokens": [2059]
+          },
+          {
+            "word": " again?",
+            "start": 120.24,
+            "end": 120.24,
+            "probability": 0.9929277002811432,
+            "tokens": [797, 30]
+          },
+          {
+            "word": " I",
+            "start": 120.24,
+            "end": 120.24,
+            "probability": 0.3030939996242523,
+            "tokens": [286]
+          },
+          {
+            "word": " quite",
+            "start": 120.24,
+            "end": 120.24,
+            "probability": 0.8536971807479858,
+            "tokens": [1596]
+          },
+          {
+            "word": " like",
+            "start": 120.24,
+            "end": 120.24,
+            "probability": 0.9981374740600586,
+            "tokens": [411]
+          },
+          {
+            "word": " the",
+            "start": 120.24,
+            "end": 120.24,
+            "probability": 0.9982442855834961,
+            "tokens": [264]
+          },
+          {
+            "word": " person",
+            "start": 120.24,
+            "end": 120.24,
+            "probability": 0.9991243481636047,
+            "tokens": [954]
+          },
+          {
+            "word": " that",
+            "start": 120.24,
+            "end": 120.62,
+            "probability": 0.990323543548584,
+            "tokens": [300]
+          },
+          {
+            "word": " I",
+            "start": 120.92,
+            "end": 121.28,
+            "probability": 0.751629114151001,
+            "tokens": [286]
+          },
+          {
+            "word": " am",
+            "start": 121.28,
+            "end": 121.7,
+            "probability": 0.9936957955360413,
+            "tokens": [669]
+          },
+          {
+            "word": " Am",
+            "start": 121.7,
+            "end": 122.56,
+            "probability": 0.24844463169574738,
+            "tokens": [2012]
+          },
+          {
+            "word": " I",
+            "start": 122.56,
+            "end": 122.88,
+            "probability": 0.9940556287765503,
+            "tokens": [286]
+          },
+          {
+            "word": " gonna",
+            "start": 122.88,
+            "end": 123.14,
+            "probability": 0.8270734548568726,
+            "tokens": [799]
+          },
+          {
+            "word": " lose",
+            "start": 123.14,
+            "end": 123.54,
+            "probability": 0.9878693222999573,
+            "tokens": [3624]
+          },
+          {
+            "word": " myself",
+            "start": 123.54,
+            "end": 124.12,
+            "probability": 0.9936978220939636,
+            "tokens": [2059]
+          },
+          {
+            "word": " again?",
+            "start": 124.12,
+            "end": 125.58,
+            "probability": 0.8386234045028687,
+            "tokens": [797, 30]
+          },
+          {
+            "word": "    Am",
+            "start": 125.58,
+            "end": 126.44,
+            "probability": 0.18326263491508143,
+            "tokens": [220, 220, 220, 2012]
+          },
+          {
+            "word": " I",
+            "start": 126.44,
+            "end": 126.56,
+            "probability": 0.9965143799781799,
+            "tokens": [286]
+          },
+          {
+            "word": " gonna",
+            "start": 126.56,
+            "end": 126.92,
+            "probability": 0.9849591851234436,
+            "tokens": [799]
+          },
+          {
+            "word": " lose",
+            "start": 126.92,
+            "end": 127.38,
+            "probability": 0.9908602237701416,
+            "tokens": [3624]
+          },
+          {
+            "word": " myself",
+            "start": 127.38,
+            "end": 128.22,
+            "probability": 0.9923465251922607,
+            "tokens": [2059]
+          },
+          {
+            "word": " again?",
+            "start": 128.22,
+            "end": 128.84,
+            "probability": 0.9874854683876038,
+            "tokens": [797, 30]
+          },
+          {
+            "word": " Am",
+            "start": 129.02,
+            "end": 130.14,
+            "probability": 0.1735808253288269,
+            "tokens": [2012]
+          },
+          {
+            "word": " I",
+            "start": 130.14,
+            "end": 130.4,
+            "probability": 0.9959973096847534,
+            "tokens": [286]
+          },
+          {
+            "word": " gonna",
+            "start": 130.4,
+            "end": 130.68,
+            "probability": 0.9949615001678467,
+            "tokens": [799]
+          },
+          {
+            "word": " lose",
+            "start": 130.68,
+            "end": 131.12,
+            "probability": 0.9942700862884521,
+            "tokens": [3624]
+          },
+          {
+            "word": " myself",
+            "start": 131.12,
+            "end": 131.96,
+            "probability": 0.9952386617660522,
+            "tokens": [2059]
+          },
+          {
+            "word": " again?",
+            "start": 131.96,
+            "end": 132.66,
+            "probability": 0.9928451180458069,
+            "tokens": [797, 30]
+          },
+          {
+            "word": " Am",
+            "start": 133.14,
+            "end": 133.86,
+            "probability": 0.25472894310951233,
+            "tokens": [2012]
+          },
+          {
+            "word": " I",
+            "start": 133.86,
+            "end": 133.96,
+            "probability": 0.9851218461990356,
+            "tokens": [286]
+          },
+          {
+            "word": " gonna",
+            "start": 133.96,
+            "end": 134.26,
+            "probability": 0.8258381485939026,
+            "tokens": [799]
+          },
+          {
+            "word": " lose",
+            "start": 134.26,
+            "end": 134.72,
+            "probability": 0.9767354130744934,
+            "tokens": [3624]
+          },
+          {
+            "word": " myself",
+            "start": 134.72,
+            "end": 135.2,
+            "probability": 0.9918479919433594,
+            "tokens": [2059]
+          },
+          {
+            "word": " again?",
+            "start": 135.2,
+            "end": 135.2,
+            "probability": 0.9881733059883118,
+            "tokens": [797, 30]
+          },
+          {
+            "word": " Am",
+            "start": 135.2,
+            "end": 135.2,
+            "probability": 0.14652332663536072,
+            "tokens": [2012]
+          },
+          {
+            "word": " I",
+            "start": 135.2,
+            "end": 135.2,
+            "probability": 0.9891724586486816,
+            "tokens": [286]
+          },
+          {
+            "word": " gonna",
+            "start": 135.2,
+            "end": 135.2,
+            "probability": 0.9610182046890259,
+            "tokens": [799]
+          },
+          {
+            "word": " lose",
+            "start": 135.2,
+            "end": 135.2,
+            "probability": 0.9896342754364014,
+            "tokens": [3624]
+          },
+          {
+            "word": " myself",
+            "start": 135.2,
+            "end": 135.2,
+            "probability": 0.992161214351654,
+            "tokens": [2059]
+          },
+          {
+            "word": " again?",
+            "start": 135.2,
+            "end": 136.44,
+            "probability": 0.98799729347229,
+            "tokens": [797, 30]
+          },
+          {
+            "word": " Am",
+            "start": 136.88,
+            "end": 137.46,
+            "probability": 0.09746093302965164,
+            "tokens": [2012]
+          },
+          {
+            "word": " I",
+            "start": 137.46,
+            "end": 137.76,
+            "probability": 0.9901902079582214,
+            "tokens": [286]
+          },
+          {
+            "word": " gonna",
+            "start": 137.76,
+            "end": 137.76,
+            "probability": 0.9899495840072632,
+            "tokens": [799]
+          },
+          {
+            "word": " lose",
+            "start": 137.76,
+            "end": 137.76,
+            "probability": 0.9920732378959656,
+            "tokens": [3624]
+          },
+          {
+            "word": " myself",
+            "start": 137.76,
+            "end": 137.76,
+            "probability": 0.9940662384033203,
+            "tokens": [2059]
+          },
+          {
+            "word": " again?",
+            "start": 137.76,
+            "end": 137.76,
+            "probability": 0.9911234378814697,
+            "tokens": [797, 30]
+          },
+          {
+            "word": " Am",
+            "start": 137.76,
+            "end": 137.76,
+            "probability": 0.21617412567138672,
+            "tokens": [2012]
+          },
+          {
+            "word": " I",
+            "start": 137.76,
+            "end": 137.8,
+            "probability": 0.9841214418411255,
+            "tokens": [286]
+          },
+          {
+            "word": " gonna",
+            "start": 137.8,
+            "end": 138.04,
+            "probability": 0.9886366724967957,
+            "tokens": [799]
+          },
+          {
+            "word": " lose",
+            "start": 138.04,
+            "end": 138.52,
+            "probability": 0.9905260801315308,
+            "tokens": [3624]
+          },
+          {
+            "word": " myself",
+            "start": 138.52,
+            "end": 139.0,
+            "probability": 0.9935988187789917,
+            "tokens": [2059]
+          },
+          {
+            "word": " again?",
+            "start": 139.0,
+            "end": 140.06,
+            "probability": 0.9917744994163513,
+            "tokens": [797, 30]
+          },
+          {
+            "word": " Am",
+            "start": 140.3,
+            "end": 141.4,
+            "probability": 0.4271177649497986,
+            "tokens": [2012]
+          },
+          {
+            "word": " I",
+            "start": 141.4,
+            "end": 141.4,
+            "probability": 0.9791918396949768,
+            "tokens": [286]
+          },
+          {
+            "word": " gonna",
+            "start": 141.4,
+            "end": 141.4,
+            "probability": 0.9848159551620483,
+            "tokens": [799]
+          },
+          {
+            "word": " lose",
+            "start": 141.4,
+            "end": 141.4,
+            "probability": 0.9899712800979614,
+            "tokens": [3624]
+          },
+          {
+            "word": " myself",
+            "start": 141.4,
+            "end": 141.4,
+            "probability": 0.993161678314209,
+            "tokens": [2059]
+          },
+          {
+            "word": " again?",
+            "start": 141.4,
+            "end": 141.4,
+            "probability": 0.9923216700553894,
+            "tokens": [797, 30]
+          },
+          {
+            "word": " Am",
+            "start": 141.4,
+            "end": 142.14,
+            "probability": 0.5792954564094543,
+            "tokens": [2012]
+          },
+          {
+            "word": " I",
+            "start": 142.14,
+            "end": 142.14,
+            "probability": 0.9819515943527222,
+            "tokens": [286]
+          },
+          {
+            "word": " gonna",
+            "start": 142.14,
+            "end": 142.14,
+            "probability": 0.9830803871154785,
+            "tokens": [799]
+          },
+          {
+            "word": " lose",
+            "start": 142.14,
+            "end": 142.14,
+            "probability": 0.989989161491394,
+            "tokens": [3624]
+          },
+          {
+            "word": " myself",
+            "start": 142.14,
+            "end": 142.14,
+            "probability": 0.9931401610374451,
+            "tokens": [2059]
+          },
+          {
+            "word": " again?",
+            "start": 142.14,
+            "end": 142.14,
+            "probability": 0.9929293990135193,
+            "tokens": [797, 30]
+          },
+          {
+            "word": " Am",
+            "start": 142.14,
+            "end": 144.08,
+            "probability": 0.6835177540779114,
+            "tokens": [2012]
+          },
+          {
+            "word": " I",
+            "start": 144.08,
+            "end": 146.16,
+            "probability": 0.9852052330970764,
+            "tokens": [286]
+          },
+          {
+            "word": " gonna",
+            "start": 146.16,
+            "end": 146.16,
+            "probability": 0.9826935529708862,
+            "tokens": [799]
+          },
+          {
+            "word": " lose",
+            "start": 146.16,
+            "end": 146.16,
+            "probability": 0.9901896119117737,
+            "tokens": [3624]
+          },
+          {
+            "word": " myself",
+            "start": 146.16,
+            "end": 146.16,
+            "probability": 0.9933926463127136,
+            "tokens": [2059]
+          },
+          {
+            "word": " again?",
+            "start": 146.16,
+            "end": 146.16,
+            "probability": 0.9934025406837463,
+            "tokens": [797, 30]
+          },
+          {
+            "word": " I",
+            "start": 146.16,
+            "end": 146.16,
+            "probability": 0.011364097706973553,
+            "tokens": [286]
+          },
+          {
+            "word": " don't",
+            "start": 146.16,
+            "end": 147.62,
+            "probability": 0.5278424695134163,
+            "tokens": [500, 380]
+          },
+          {
+            "word": " want",
+            "start": 147.62,
+            "end": 148.28,
+            "probability": 0.08310423791408539,
+            "tokens": [528]
+          },
+          {
+            "word": " to",
+            "start": 148.28,
+            "end": 148.48,
+            "probability": 0.6855101585388184,
+            "tokens": [281]
+          },
+          {
+            "word": " lose",
+            "start": 148.48,
+            "end": 150.6,
+            "probability": 0.31448039412498474,
+            "tokens": [3624]
+          },
+          {
+            "word": " myself",
+            "start": 186.66,
+            "end": 187.94,
+            "probability": 0.9439038038253784,
+            "tokens": [2059]
+          },
+          {
+            "word": " again",
+            "start": 187.94,
+            "end": 188.64,
+            "probability": 0.8770347833633423,
+            "tokens": [797]
+          }
+        ]
+      }
+    ]
+  },
+  "regroup_history": "cm=2.5+++0_sp=,* /，+0+0_sg=0.5+0+0_mg=0.3+3++0+0_sp=.* /。/?/？+0+0",
+  "nonspeech_sections": [
+    { "start": 0.0, "end": 8.62 },
+    { "start": 10.88, "end": 11.18 },
+    { "start": 13.22, "end": 13.3 },
+    { "start": 14.88, "end": 16.1 },
+    { "start": 19.36, "end": 19.4 },
+    { "start": 20.76, "end": 20.82 },
+    { "start": 23.22, "end": 23.28 },
+    { "start": 23.58, "end": 23.6 },
+    { "start": 23.94, "end": 24.08 },
+    { "start": 25.82, "end": 26.26 },
+    { "start": 27.74, "end": 27.8 },
+    { "start": 32.12, "end": 38.54 },
+    { "start": 39.38, "end": 39.48 },
+    { "start": 40.52, "end": 40.8 },
+    { "start": 42.2, "end": 42.3 },
+    { "start": 42.84, "end": 42.96 },
+    { "start": 44.52, "end": 46.0 },
+    { "start": 46.36, "end": 46.38 },
+    { "start": 47.26, "end": 47.4 },
+    { "start": 52.58, "end": 52.64 },
+    { "start": 53.08, "end": 53.3 },
+    { "start": 53.92, "end": 53.98 },
+    { "start": 54.28, "end": 54.44 },
+    { "start": 55.82, "end": 55.94 },
+    { "start": 56.08, "end": 56.16 },
+    { "start": 56.28, "end": 56.3 },
+    { "start": 56.9, "end": 56.94 },
+    { "start": 57.14, "end": 57.2 },
+    { "start": 57.62, "end": 57.64 },
+    { "start": 58.08, "end": 58.16 },
+    { "start": 66.24, "end": 66.28 },
+    { "start": 66.46, "end": 66.5 },
+    { "start": 67.4, "end": 67.48 },
+    { "start": 67.94, "end": 67.96 },
+    { "start": 70.2, "end": 70.26 },
+    { "start": 74.02, "end": 74.54 },
+    { "start": 74.8, "end": 90.8 },
+    { "start": 93.0, "end": 93.42 },
+    { "start": 94.92, "end": 95.02 },
+    { "start": 96.96, "end": 98.3 },
+    { "start": 99.62, "end": 99.64 },
+    { "start": 100.08, "end": 100.18 },
+    { "start": 102.02, "end": 102.1 },
+    { "start": 139.82, "end": 139.84 },
+    { "start": 143.46, "end": 143.58 },
+    { "start": 143.74, "end": 143.92 },
+    { "start": 144.2, "end": 144.26 },
+    { "start": 146.88, "end": 146.92 },
+    { "start": 147.06, "end": 147.18 },
+    { "start": 147.32, "end": 147.46 },
+    { "start": 148.56, "end": 149.22 },
+    { "start": 149.38, "end": 149.4 },
+    { "start": 149.74, "end": 150.14 },
+    { "start": 155.72, "end": 156.06 },
+    { "start": 156.26, "end": 156.32 },
+    { "start": 156.68, "end": 157.26 },
+    { "start": 157.4, "end": 159.04 },
+    { "start": 159.2, "end": 164.72 },
+    { "start": 168.6, "end": 168.62 },
+    { "start": 169.76, "end": 169.88 },
+    { "start": 170.02, "end": 170.94 },
+    { "start": 171.06, "end": 171.14 },
+    { "start": 173.5, "end": 173.54 },
+    { "start": 174.22, "end": 174.9 },
+    { "start": 175.34, "end": 175.36 },
+    { "start": 175.4, "end": 175.42 },
+    { "start": 177.24, "end": 177.3 },
+    { "start": 177.52, "end": 177.6 },
+    { "start": 178.18, "end": 178.38 },
+    { "start": 178.58, "end": 179.48 },
+    { "start": 185.76, "end": 185.78 },
+    { "start": 185.86, "end": 186.18 },
+    { "start": 189.5, "end": 189.56 },
+    { "start": 189.72, "end": 189.82 },
+    { "start": 193.2, "end": 193.56 },
+    { "start": 196.1, "end": 196.12 },
+    { "start": 197.08, "end": 197.12 },
+    { "start": 199.22, "end": 199.26 },
+    { "start": 199.64, "end": 199.66 },
+    { "start": 201.86, "end": 202.48 }
+  ]
+}
