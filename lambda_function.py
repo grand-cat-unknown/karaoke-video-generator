@@ -40,9 +40,9 @@ class KaraokeScene(Scene):
         frame_rate = config.frame_rate
         one_frame_dration = 1 / frame_rate
         # Load lyrics
-        with open('lyrics.txt') as f:
+        with open('/tmp/lyrics.txt') as f:
             lyrics = [line.strip().split() for line in f.readlines()]
-        timestamp_json = json.load(open('timestamps.json'))
+        timestamp_json = json.load(open('/tmp/timestamps.json'))
         timestamps = []
         # remove emptylists from lyrics
         lyrics = [line for line in lyrics if line]
