@@ -8,7 +8,7 @@ WORKDIR /var/task
 COPY . .
 
 # Install OS dependencies
-RUN yum install -y gcc python3-dev cairo-devel pango-devel ffmpeg
+RUN apt-get install -y gcc python3-dev cairo-devel pango-devel ffmpeg
 
 # Install Python dependencies
 RUN pip install -r requirements.txt
