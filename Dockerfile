@@ -8,13 +8,16 @@ WORKDIR /var/task
 COPY . .
 
 # Install OS dependencies required for building your dependencies but not ffmpeg
-RUN yum install -y gcc python3-devel cairo-devel pango-devel
+RUN yum install -y gcc python3-devel cairo-devel pango-devel && \
+    yum install -y tar xz gzip
 
 # Install Python dependencies
-RUN pip install -r requirements.txt
+RUN pip install -r requirements.txt && \
+    pip install --upgrade pip
 
 # Manually download and install ffmpeg
-RUN curl -L https://johnvansickle.com/ffmpeg/releases/ffmpeg-release-amd64-static.tar.xz | tar Jxvf - --strip-components=1 -C /usr/local/bin
+RUN curl -L https://johnvansickle.com/ffmpeg/releases/ffmpeg-release-amd64-static.tar.xz | \
+    tar Jxvf - --strip-components=1 -C /usr/local/bin
 
 # Set the CMD to your handler (the AWS Lambda Python runtime expects a function handler)
 CMD ["lambda_function.lambda_handler"]
