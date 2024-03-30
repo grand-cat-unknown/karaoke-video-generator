@@ -1,0 +1,4 @@
+manim
+boto3
+python-dotenv
+ffmpeg-python
