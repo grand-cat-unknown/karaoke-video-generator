@@ -11,17 +11,18 @@ s3 = boto3.client('s3', aws_access_key_id=os.environ.get('AWS_S3_ACCESS_ID'), aw
 
 
 def lambda_handler(event, context):
-
+    outdir = '/tmp'
+    
     song_name = event['song_name']
-    s3.download_file('auto-karaoke', f'{song_name}/base_song.mp3','base_song.mp3' )
-    s3.download_file('auto-karaoke', f'{song_name}/no_vocals.mp3', 'no_vocals.mp3')
-    s3.download_file('auto-karaoke', f'{song_name}/lyrics.txt', 'lyrics.txt')
-    s3.download_file('auto-karaoke', f'{song_name}/timestamps.json', 'timestamps.json')
+    s3.download_file('auto-karaoke', f'{song_name}/base_song.mp3',f'{outdir}/base_song.mp3' )
+    s3.download_file('auto-karaoke', f'{song_name}/no_vocals.mp3', f'{outdir}/no_vocals.mp3')
+    s3.download_file('auto-karaoke', f'{song_name}/lyrics.txt', f'{outdir}/lyrics.txt')
+    s3.download_file('auto-karaoke', f'{song_name}/timestamps.json', f'{outdir}/timestamps.json')
 
     scene = KaraokeScene()
     scene.render()
 
-    input_video = ffmpeg.input("media/videos/1080p60/KaraokeScene.mp4")
+    input_video = ffmpeg.input("/tmp/media/videos/1080p60/KaraokeScene.mp4")
     input_audio = ffmpeg.input('no_vocals.mp3')
 
     ffmpeg.concat(input_video, input_audio, v=1, a=1).output('lyric_video.mp4').run()
