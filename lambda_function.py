@@ -80,7 +80,8 @@ class KaraokeScene(Scene):
             print(one_line)
             synced_lyrics.append(one_line)
 
-        self.play("Hello".animate, run_time=5)
+        text = Text("Hello")
+        self.play(Write(text), run_time=5)
         # Display lyrics
 
         # previous_end_time = 0  # Keep track of the end time of the last word
