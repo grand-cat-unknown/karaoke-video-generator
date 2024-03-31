@@ -24,9 +24,10 @@ def lambda_handler(event, context):
 
     input_video = ffmpeg.input("/tmp/output.mp4")
     input_audio = ffmpeg.input(f'{outdir}/no_vocals.mp3')
-
-    ffmpeg.concat(input_video, input_audio, v=1, a=1).output('/tmp/lyric_video.mp4').run()
     ffmpeg.concat(input_video, input_audio, v=1, a=1).output('/tmp/karaoke.mp4').run()
+
+    input_audio = ffmpeg.input(f'{outdir}/base_song.mp3')
+    ffmpeg.concat(input_video, input_audio, v=1, a=1).output('/tmp/lyric_video.mp4').run()
 
     # upload to s3
     s3.upload_file('/tmp/lyric_video.mp4', 'auto-karaoke', f'{song_name}/lyric_video.mp4')
@@ -39,8 +40,7 @@ class KaraokeScene(Scene):
     def construct(self):
         frame_rate = config.frame_rate
         one_frame_dration = 1 / frame_rate
-        config.frame_height = 480  # Set the frame height to 480 pixels
-        config.frame_width = 854
+
         # Load lyrics
         with open('/tmp/lyrics.txt') as f:
             lyrics = [line.strip().split() for line in f.readlines()]
