@@ -20,7 +20,7 @@ def lambda_handler(event, context):
     
     # Read the file's content
     trigger_json = json.loads(trigger_obj['Body'].read().decode('utf-8'))
-    song_name = trigger_json['body']['song_name']
+    song_name = trigger_json['song_name']
 
     s3.download_file('auto-karaoke', f'{song_name}/base_song.mp3',f'{outdir}/base_song.mp3' )
     s3.download_file('auto-karaoke', f'{song_name}/no_vocals.mp3', f'{outdir}/no_vocals.mp3')
