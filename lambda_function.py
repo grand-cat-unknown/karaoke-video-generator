@@ -13,7 +13,15 @@ s3 = boto3.client('s3', aws_access_key_id=os.environ.get('AWS_S3_ACCESS_ID'), aw
 def lambda_handler(event, context):
     outdir = '/tmp'
     
-    song_name = event['song_name']
+    # song_name = event['song_name']
+    trigger_bucket = event["Records"][0]["s3"]["bucket"]["name"]
+    trigger_key = event["Records"][0]["s3"]["object"]["key"]
+    trigger_obj = s3.get_object(Bucket=trigger_bucket, Key=trigger_key)
+    
+    # Read the file's content
+    trigger_json = json.loads(trigger_obj['Body'].read().decode('utf-8'))
+    song_name = trigger_json['body']['song_name']
+
     s3.download_file('auto-karaoke', f'{song_name}/base_song.mp3',f'{outdir}/base_song.mp3' )
     s3.download_file('auto-karaoke', f'{song_name}/no_vocals.mp3', f'{outdir}/no_vocals.mp3')
     s3.download_file('auto-karaoke', f'{song_name}/lyrics.txt', f'{outdir}/lyrics.txt')

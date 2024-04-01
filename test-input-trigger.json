@@ -1,0 +1,32 @@
+{
+  "Records": [
+    {
+      "eventVersion": "2.1",
+      "eventSource": "aws:s3",
+      "awsRegion": "eu-central-1",
+      "eventTime": "2024-04-01T08:27:10.689Z",
+      "eventName": "ObjectCreated:Put",
+      "userIdentity": { "principalId": "AWS:AIDAQMQHHNWIX2RYTQBHS" },
+      "requestParameters": { "sourceIPAddress": "213.219.168.204" },
+      "responseElements": {
+        "x-amz-request-id": "HTFHA7BB0NQXH8NR",
+        "x-amz-id-2": "7UKX9K/5ogHw9T1+Q8gS6QOMIA3eFlH9TnRFIGBcrTu6B1gDM0L44/ZbHIjgtZdyrtyaAJu9KX5Tyvwfm/eoz03uPfPbjoOS"
+      },
+      "s3": {
+        "s3SchemaVersion": "1.0",
+        "configurationId": "b1328198-c501-4767-a403-2580cc16cfdb",
+        "bucket": {
+          "name": "auto-karaoke-triggers",
+          "ownerIdentity": { "principalId": "A33JGICMOV4WO8" },
+          "arn": "arn:aws:s3:::auto-karaoke-triggers"
+        },
+        "object": {
+          "key": "test.json",
+          "size": 36,
+          "eTag": "16d2b0c345839c7528fca41256c84661",
+          "sequencer": "00660A6FDEA69E7555"
+        }
+      }
+    }
+  ]
+}
