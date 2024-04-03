@@ -11,6 +11,8 @@ s3 = boto3.client('s3', aws_access_key_id=os.environ.get('AWS_S3_ACCESS_ID'), aw
 
 
 def lambda_handler(event, context):
+
+    print(event)
     outdir = '/tmp'
     
     # song_name = event['song_name']
