@@ -4,27 +4,27 @@
       "eventVersion": "2.1",
       "eventSource": "aws:s3",
       "awsRegion": "eu-central-1",
-      "eventTime": "2024-04-01T08:27:10.689Z",
+      "eventTime": "2024-04-03T11:58:23.110Z",
       "eventName": "ObjectCreated:Put",
       "userIdentity": { "principalId": "AWS:AIDAQMQHHNWIX2RYTQBHS" },
-      "requestParameters": { "sourceIPAddress": "213.219.168.204" },
+      "requestParameters": { "sourceIPAddress": "81.164.116.204" },
       "responseElements": {
-        "x-amz-request-id": "HTFHA7BB0NQXH8NR",
-        "x-amz-id-2": "7UKX9K/5ogHw9T1+Q8gS6QOMIA3eFlH9TnRFIGBcrTu6B1gDM0L44/ZbHIjgtZdyrtyaAJu9KX5Tyvwfm/eoz03uPfPbjoOS"
+        "x-amz-request-id": "TG0NZNBB6TYA9D5C",
+        "x-amz-id-2": "el78rK5n0siA7ejAWtxicO7Ff2/1+Wi71o9IMdnMlgA/0fA+CkAFjyLNIBoQcGnhK7/35H03VqKqLCg2MklynPzw8OYSeAgh"
       },
       "s3": {
         "s3SchemaVersion": "1.0",
-        "configurationId": "b1328198-c501-4767-a403-2580cc16cfdb",
+        "configurationId": "5912da5f-8e84-4c58-b43a-1a0a66f29ca6",
         "bucket": {
           "name": "auto-karaoke-triggers",
           "ownerIdentity": { "principalId": "A33JGICMOV4WO8" },
           "arn": "arn:aws:s3:::auto-karaoke-triggers"
         },
         "object": {
-          "key": "Blood Is Blue.json",
-          "size": 36,
-          "eTag": "16d2b0c345839c7528fca41256c84661",
-          "sequencer": "00660A6FDEA69E7555"
+          "key": "Less+Of+A+Stranger+trigger.json",
+          "size": 39,
+          "eTag": "921109ab0b1c720ff8beea3a8f073904",
+          "sequencer": "00660D445F163DD1F4"
         }
       }
     }

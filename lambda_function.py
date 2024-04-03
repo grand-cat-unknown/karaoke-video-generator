@@ -17,7 +17,7 @@ def lambda_handler(event, context):
     
     # song_name = event['song_name']
     trigger_bucket = event["Records"][0]["s3"]["bucket"]["name"]
-    trigger_key = event["Records"][0]["s3"]["object"]["key"]
+    trigger_key = event["Records"][0]["s3"]["object"]["key"].replace("+"," ")
     print(trigger_bucket, trigger_key)
     trigger_obj = s3.get_object(Bucket=trigger_bucket, Key=trigger_key)
     
