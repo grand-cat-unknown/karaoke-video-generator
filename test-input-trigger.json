@@ -21,7 +21,7 @@
           "arn": "arn:aws:s3:::auto-karaoke-triggers"
         },
         "object": {
-          "key": "test.json",
+          "key": "Blood Is Blue.json",
           "size": 36,
           "eTag": "16d2b0c345839c7528fca41256c84661",
           "sequencer": "00660A6FDEA69E7555"

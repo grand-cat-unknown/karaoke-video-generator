@@ -16,6 +16,7 @@ def lambda_handler(event, context):
     # song_name = event['song_name']
     trigger_bucket = event["Records"][0]["s3"]["bucket"]["name"]
     trigger_key = event["Records"][0]["s3"]["object"]["key"]
+    print(trigger_bucket, trigger_key)
     trigger_obj = s3.get_object(Bucket=trigger_bucket, Key=trigger_key)
     
     # Read the file's content
@@ -88,6 +89,8 @@ class KaraokeScene(Scene):
             print(one_line)
             synced_lyrics.append(one_line)
 
+        synced_lyrics = [line for line in synced_lyrics if line]
+
         previous_end_time = 0  # Keep track of the end time of the last word
         for sentence in synced_lyrics:
             self.clear()
@@ -129,5 +132,5 @@ class KaraokeScene(Scene):
             self.wait(remaining_duration)
 
 if __name__ == "__main__":
-    song_name = "YO! MY SAINT (Film Version)"
-    lambda_handler({'song_name': song_name}, None)
+    input_json = json.load(open('test-input-trigger.json'))
+    lambda_handler(input_json, None)
