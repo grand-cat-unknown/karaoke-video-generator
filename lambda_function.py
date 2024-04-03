@@ -9,7 +9,6 @@ import ffmpeg
 dotenv.load_dotenv()
 s3 = boto3.client('s3', aws_access_key_id=os.environ.get('AWS_S3_ACCESS_ID'), aws_secret_access_key=os.environ.get('AWS_S3_ACCESS_KEY'))
 
-
 def lambda_handler(event, context):
 
     print(event)
@@ -51,6 +50,11 @@ class KaraokeScene(Scene):
     def construct(self):
         frame_rate = config.frame_rate
         one_frame_dration = 1 / frame_rate
+        config.frame_width = 9
+        config.frame_height = 16
+
+        config.pixel_width = 1080
+        config.pixel_height = 1920
 
         # Load lyrics
         with open('/tmp/lyrics.txt') as f:
