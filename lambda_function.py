@@ -50,12 +50,6 @@ class KaraokeScene(Scene):
     def construct(self):
         frame_rate = config.frame_rate
         one_frame_dration = 1 / frame_rate
-        config.frame_width = 9
-        config.frame_height = 16
-
-        config.pixel_width = 1080
-        config.pixel_height = 1920
-
         # Load lyrics
         with open('/tmp/lyrics.txt') as f:
             lyrics = [line.strip().split() for line in f.readlines()]
@@ -111,7 +105,7 @@ class KaraokeScene(Scene):
                 word = Text(word_text, color=WHITE).scale(0.7)
                 line_group.add(word)  # Add the word to the line group
 
-            line_group.arrange(RIGHT, buff=0.1)  # Arrange words in a row
+            line_group.arrange(RIGHT, buff=0.4)  # Arrange words in a row
             self.add(line_group)  # Display the line
 
             if pause_duration > 0:
